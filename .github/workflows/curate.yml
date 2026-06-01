@@ -1,0 +1,47 @@
+name: Run Curation Agent
+
+# Manual trigger from the Actions tab (matches "user-triggered" intent).
+# The weekly schedule is commented out — uncomment if you ever want it automatic.
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "30 3 * * *"   # 09:00 IST daily
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Scrape jiotv.com
+        run: node agent/scrape.js
+        env:
+          JIOTV_URL: https://www.jiotv.com
+
+      - name: Score curation
+        run: node agent/run.js
+
+      - name: Commit report
+        run: |
+          git config user.name  "curation-agent[bot]"
+          git config user.email "actions@github.com"
+          git add docs/data/snapshot.json docs/data/report.json docs/data/history.json docs/data/tabs.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "agent: curation review $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
