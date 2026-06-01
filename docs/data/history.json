@@ -1,0 +1,35 @@
+[
+  {
+    "scoredAt": "2026-05-28T09:00:00Z",
+    "overall": 68,
+    "grade": "C",
+    "dims": {
+      "constitution": 50,
+      "strategy": 80,
+      "freshness": 78,
+      "engagement": 82
+    }
+  },
+  {
+    "scoredAt": "2026-05-30T09:00:00Z",
+    "overall": 71,
+    "grade": "B",
+    "dims": {
+      "constitution": 52,
+      "strategy": 82,
+      "freshness": 80,
+      "engagement": 83
+    }
+  },
+  {
+    "scoredAt": "2026-06-01T09:00:00Z",
+    "overall": 73,
+    "grade": "B",
+    "dims": {
+      "constitution": 53,
+      "strategy": 84,
+      "freshness": 82,
+      "engagement": 84
+    }
+  }
+]

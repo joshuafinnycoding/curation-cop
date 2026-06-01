@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-06-01T09:00:00Z",
+  "source": "https://www.jiotv.com",
+  "tabs": [
+    {
+      "id": "foryou", "name": "For You",
+      "banners": [{"title":"IPL Final"},{"title":"New Movie"}],
+      "rails": [
+        {"title":"Trending Now","type":"rail","items":[
+          {"title":"Bigg Boss","language":"hindi","genre":"entertainment","ageRating":"u/a 13+","lastUpdated":"2026-05-31","deeplink":"jioplay://x","hasArtwork":true},
+          {"title":"IPL Highlights","language":"english","genre":"sports","lastUpdated":"2026-05-30","deeplink":"jioplay://y","hasArtwork":true},
+          {"title":"Old Show","language":"hindi","genre":"drama","lastUpdated":"2026-04-01","deeplink":"badlink","hasArtwork":false,"rightsExpiry":"2026-05-01"}
+        ]},
+        {"title":"Top 10 in Your Area","type":"rail","items":[
+          {"title":"Bigg Boss","language":"hindi","genre":"entertainment","deeplink":"jioplay://x","hasArtwork":true},
+          {"title":"News Live","language":"hindi","genre":"news","deeplink":"jioplay://n","hasArtwork":true}
+        ]},
+        {"title":"Continue Watching","type":"rail","items":[
+          {"title":"Movie A","language":"tamil","genre":"movies","deeplink":"jioplay://a","hasArtwork":true}
+        ]}
+      ]
+    },
+    {
+      "id":"kids","name":"Kids","banners":[],
+      "rails":[
+        {"title":"Cartoons","type":"rail","items":[
+          {"title":"Doraemon","language":"hindi","genre":"kids","ageRating":"u","deeplink":"jioplay://d","hasArtwork":true},
+          {"title":"Adult Thriller","language":"hindi","genre":"drama","ageRating":"a","deeplink":"jioplay://t","hasArtwork":true}
+        ]}
+      ]
+    }
+  ]
+}

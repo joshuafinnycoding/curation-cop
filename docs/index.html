@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>JioTV · Curation Agent</title>
+<style>
+  /* ---- JioTV "Crimson" theme tokens (design-guidelines.md) ---- */
+  :root{
+    --crimson-50:#AA0023; --crimson-60:#700017; --crimson-70:#4D0010;
+    --crimson-accent:#F98BA1; --jio-red:#E30513; --sparkle:#0078AD;
+    --ink:#141414; --ink-60:#5A5A5A; --paper:#FFFFFF; --mist:#F5F5F5;
+    --line:#E8E2E4; --ok:#25AB21; --warn:#D98A00; --bad:#C11539;
+    --canvas:#0E0608;
+    --r-card:18px; --r-pill:1000px;
+    --shadow:0 8px 30px rgba(74,0,16,.10), 0 2px 8px rgba(0,0,0,.05);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(120% 60% at 80% -10%, rgba(170,0,35,.20), transparent 60%),
+      radial-gradient(100% 50% at -10% 0%, rgba(249,139,161,.16), transparent 55%),
+      var(--canvas);
+    color:#fff; min-height:100vh; line-height:1.5;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .wrap{max-width:520px;margin:0 auto;padding:0 16px 48px}
+
+  /* ---- Header ---- */
+  header{
+    position:sticky;top:0;z-index:20;
+    margin:0 -16px 0;padding:calc(env(safe-area-inset-top) + 14px) 16px 14px;
+    background:linear-gradient(180deg,var(--crimson-50),var(--crimson-70));
+    border-bottom:1px solid rgba(255,255,255,.08);
+    box-shadow:0 4px 20px rgba(0,0,0,.35);
+  }
+  .brand{display:flex;align-items:center;gap:10px}
+  .logo{
+    width:34px;height:34px;border-radius:9px;flex:none;
+    background:var(--paper);display:grid;place-items:center;
+    box-shadow:0 2px 6px rgba(0,0,0,.3);
+  }
+  .logo svg{width:20px;height:20px}
+  .brand h1{font-size:17px;font-weight:900;letter-spacing:-.5px;margin:0;line-height:1.1}
+  .brand .sub{font-size:11px;opacity:.8;font-weight:600;letter-spacing:.3px;text-transform:uppercase}
+  .src{margin-top:10px;font-size:11px;opacity:.85;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+  .src code{background:rgba(0,0,0,.25);padding:2px 7px;border-radius:6px;font-size:11px}
+
+  /* ---- Run button ---- */
+  .runbar{display:flex;gap:10px;margin-top:14px}
+  .btn{
+    appearance:none;border:0;cursor:pointer;font-weight:700;font-size:15px;
+    border-radius:var(--r-pill);padding:13px 20px;color:#fff;
+    background:linear-gradient(135deg,var(--jio-red),var(--crimson-50));
+    box-shadow:0 6px 18px rgba(227,5,19,.35);transition:transform .12s,filter .2s;
+    display:inline-flex;align-items:center;gap:9px;flex:1;justify-content:center;
+  }
+  .btn:active{transform:scale(.97)}
+  .btn.ghost{flex:none;background:rgba(255,255,255,.12);box-shadow:none;padding:13px 16px}
+  .btn[disabled]{filter:grayscale(.5) brightness(.8);cursor:wait}
+  .spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite;display:none}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  .btn.loading .spin{display:inline-block}
+  .btn.loading .lbl{opacity:.85}
+
+  /* ---- Cards ---- */
+  .card{
+    background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
+    border-radius:var(--r-card);padding:18px;margin-top:16px;backdrop-filter:blur(6px);
+  }
+  .card h2{font-size:13px;letter-spacing:.6px;text-transform:uppercase;opacity:.65;margin:0 0 14px;font-weight:800}
+
+  /* ---- Score hero ---- */
+  .hero{display:flex;align-items:center;gap:18px}
+  .dial{position:relative;width:124px;height:124px;flex:none}
+  .dial svg{transform:rotate(-90deg)}
+  .dial .val{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+  .dial .num{font-size:38px;font-weight:900;letter-spacing:-2px;line-height:1}
+  .dial .grade{font-size:12px;font-weight:800;opacity:.7;margin-top:2px}
+  .hero .meta{flex:1;min-width:0}
+  .hero .verdict{font-size:18px;font-weight:800;letter-spacing:-.4px}
+  .hero .when{font-size:12px;opacity:.6;margin-top:4px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+  .chip{font-size:11px;font-weight:700;padding:4px 9px;border-radius:var(--r-pill);background:rgba(255,255,255,.1)}
+
+  /* ---- Dimension bars ---- */
+  .dim{margin-top:14px}
+  .dim:first-of-type{margin-top:0}
+  .dim .top{display:flex;justify-content:space-between;align-items:baseline;font-size:14px}
+  .dim .top .lbl{font-weight:700}
+  .dim .top .w{font-size:11px;opacity:.5;font-weight:600}
+  .dim .top .sc{font-weight:900;font-size:15px}
+  .track{height:9px;border-radius:6px;background:rgba(255,255,255,.1);margin-top:7px;overflow:hidden}
+  .fill{height:100%;border-radius:6px;width:0;transition:width 1s cubic-bezier(.2,.8,.2,1)}
+  .dim .blurb{font-size:11.5px;opacity:.55;margin-top:6px;line-height:1.4}
+
+  /* ---- Recommendations ---- */
+  .rec{border-left:3px solid var(--ink-60);background:rgba(255,255,255,.04);border-radius:0 12px 12px 0;padding:12px 14px;margin-top:10px}
+  .rec.high{border-left-color:var(--bad)}
+  .rec.medium{border-left-color:var(--warn)}
+  .rec.low{border-left-color:var(--sparkle)}
+  .rec .rtop{display:flex;gap:8px;align-items:center;margin-bottom:5px}
+  .sev{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:5px}
+  .sev.high{background:rgba(193,21,57,.25);color:#FFB3C1}
+  .sev.medium{background:rgba(217,138,0,.22);color:#FFD98A}
+  .sev.low{background:rgba(0,120,173,.22);color:#9AD8F0}
+  .sev.tag{background:rgba(255,255,255,.1);color:#fff}
+  .rec .issue{font-size:13.5px;font-weight:700;line-height:1.35}
+  .rec .action{font-size:12.5px;opacity:.78;margin-top:5px;line-height:1.45}
+
+  /* ---- Stats grid ---- */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .stat{background:rgba(255,255,255,.05);border-radius:12px;padding:12px;text-align:center}
+  .stat .n{font-size:22px;font-weight:900;letter-spacing:-1px}
+  .stat .l{font-size:10.5px;opacity:.6;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+
+  /* ---- Trend ---- */
+  .trend{display:flex;align-items:flex-end;gap:8px;height:90px;margin-top:4px}
+  .bar{flex:1;background:linear-gradient(180deg,var(--crimson-accent),var(--crimson-50));border-radius:6px 6px 0 0;position:relative;min-height:6px;transition:height .8s}
+  .bar span{position:absolute;top:-18px;left:0;right:0;text-align:center;font-size:11px;font-weight:800}
+  .bar small{position:absolute;bottom:-18px;left:0;right:0;text-align:center;font-size:9px;opacity:.5}
+
+  .note{font-size:12px;opacity:.7;background:rgba(217,138,0,.12);border:1px solid rgba(217,138,0,.3);border-radius:12px;padding:11px 13px;margin-top:14px;line-height:1.45}
+  .empty{text-align:center;opacity:.6;padding:30px 10px;font-size:14px}
+  footer{text-align:center;font-size:11px;opacity:.4;margin-top:26px;line-height:1.6}
+  a{color:var(--crimson-accent)}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="2.5" y="5" width="19" height="13" rx="2.5" stroke="#AA0023" stroke-width="2"/><path d="M10 9.5l4 2.5-4 2.5z" fill="#AA0023"/><path d="M8 21h8" stroke="#AA0023" stroke-width="2" stroke-linecap="round"/></svg>
+    </div>
+    <div>
+      <h1>Curation Agent</h1>
+      <div class="sub">JioTV · Smart Review</div>
+    </div>
+  </div>
+  <div class="src">
+    Source <code id="srcUrl">https://www.jiotv.com</code>
+    <span id="capWhen"></span>
+  </div>
+  <div class="runbar">
+    <button class="btn" id="runBtn"><span class="spin"></span><span class="lbl">▶ Run Agent</span></button>
+    <button class="btn ghost" id="aboutBtn" title="How scoring works">ℹ︎</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div id="content"><div class="empty">Tap <b>Run Agent</b> to load the latest curation review.</div></div>
+
+  <div class="card" id="aboutCard" style="display:none">
+    <h2>How the agent scores</h2>
+    <p style="font-size:13px;opacity:.8;margin:0 0 10px">A GitHub Actions job renders <b>jiotv.com</b> in a headless browser, captures the live curation, and a pure rules engine scores it — no AI, every point is explainable. This page renders the committed report.</p>
+    <div id="aboutDims"></div>
+  </div>
+
+  <footer>
+    Rules-based · grounded in product-constitution.md, product-strategy.md & accessibility.md<br/>
+    Report regenerates when the Actions workflow runs.
+  </footer>
+</div>
+
+<script>
+const DIM_COLORS = { constitution:'#F98BA1', strategy:'#9AD8F0', freshness:'#7BE0A0', engagement:'#FFD98A' };
+const $ = (s)=>document.querySelector(s);
+
+async function loadJSON(p){ const r = await fetch(p + '?t=' + Date.now()); if(!r.ok) throw new Error(p); return r.json(); }
+
+function scoreColor(s){ return s>=85?'#7BE0A0':s>=70?'#9AD8F0':s>=55?'#FFD98A':'#FFB3C1'; }
+function fmtDate(iso){ try{ return new Date(iso).toLocaleString('en-IN',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});}catch{return iso;} }
+
+function render(report, history){
+  $('#srcUrl').textContent = report.source || 'https://www.jiotv.com';
+  $('#capWhen').textContent = '· scored ' + fmtDate(report.scoredAt);
+
+  const C = scoreColor(report.overall);
+  const circ = 2*Math.PI*54;
+  const off = circ*(1 - report.overall/100);
+
+  const verdict = report.overall>=85?'Excellent curation':report.overall>=70?'Solid, with gaps to close':report.overall>=55?'Needs attention':'At risk — act now';
+
+  // hero + dimensions
+  const dimsHTML = Object.entries(report.dimensions).map(([k,d])=>`
+    <div class="dim">
+      <div class="top"><span class="lbl">${d.label}</span>
+        <span><span class="w">${Math.round(d.weight*100)}% · </span><span class="sc" style="color:${scoreColor(d.score)}">${d.score}</span></span>
+      </div>
+      <div class="track"><div class="fill" data-w="${d.score}" style="background:${DIM_COLORS[k]}"></div></div>
+    </div>`).join('');
+
+  const recsHTML = report.recommendations.length ? report.recommendations.map(r=>`
+    <div class="rec ${r.severity}">
+      <div class="rtop"><span class="sev ${r.severity}">${r.severity}</span><span class="sev tag">${r.dimension}</span></div>
+      <div class="issue">${r.issue}</div>
+      <div class="action">${r.action}</div>
+    </div>`).join('') : '<div class="empty">No issues found. Curation is within all thresholds.</div>';
+
+  const t = report.totals||{};
+  const statsHTML = `
+    <div class="stats">
+      <div class="stat"><div class="n">${t.tabs||0}</div><div class="l">Tabs</div></div>
+      <div class="stat"><div class="n">${t.rails||0}</div><div class="l">Rails</div></div>
+      <div class="stat"><div class="n">${t.items||0}</div><div class="l">Items</div></div>
+    </div>`;
+
+  const trendHTML = (history && history.length>1) ? `
+    <div class="card"><h2>Score Trend</h2>
+      <div class="trend">${history.slice(-8).map(h=>`
+        <div class="bar" style="height:${Math.max(6,h.overall)}%">
+          <span style="color:${scoreColor(h.overall)}">${h.overall}</span>
+          <small>${new Date(h.scoredAt).toLocaleDateString('en-IN',{day:'numeric',month:'short'})}</small>
+        </div>`).join('')}
+      </div><div style="height:20px"></div>
+    </div>` : '';
+
+  const noteHTML = report.note ? `<div class="note">⚠︎ ${report.note}</div>` : '';
+
+  $('#content').innerHTML = `
+    ${noteHTML}
+    <div class="card">
+      <div class="hero">
+        <div class="dial">
+          <svg width="124" height="124" viewBox="0 0 124 124">
+            <circle cx="62" cy="62" r="54" stroke="rgba(255,255,255,.1)" stroke-width="11" fill="none"/>
+            <circle cx="62" cy="62" r="54" stroke="${C}" stroke-width="11" fill="none"
+              stroke-linecap="round" stroke-dasharray="${circ}" stroke-dashoffset="${circ}"
+              style="transition:stroke-dashoffset 1.2s cubic-bezier(.2,.8,.2,1)" id="dialArc"/>
+          </svg>
+          <div class="val"><div class="num">${report.overall}</div><div class="grade">GRADE ${report.grade}</div></div>
+        </div>
+        <div class="meta">
+          <div class="verdict">${verdict}</div>
+          <div class="when">Curation captured ${fmtDate(report.capturedAt)}</div>
+          <div class="chips">${Object.values(report.dimensions).map(d=>`<span class="chip" style="color:${scoreColor(d.score)}">${d.label.split(' ')[0]} ${d.score}</span>`).join('')}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card"><h2>Dimension Breakdown</h2>${dimsHTML}</div>
+    <div class="card"><h2>Inventory</h2>${statsHTML}</div>
+    ${trendHTML}
+    <div class="card"><h2>Recommended Actions · ${report.recommendations.length}</h2>${recsHTML}</div>
+  `;
+
+  // animate
+  requestAnimationFrame(()=>{
+    setTimeout(()=>{ const a=$('#dialArc'); if(a) a.style.strokeDashoffset=off; },80);
+    document.querySelectorAll('.fill').forEach(f=>{ setTimeout(()=>{ f.style.width=f.dataset.w+'%'; },120); });
+  });
+}
+
+async function run(){
+  const btn = $('#runBtn'); btn.classList.add('loading'); btn.disabled=true;
+  $('#aboutCard').style.display='none';
+  try{
+    // small delay so the user sees the agent "work"
+    await new Promise(r=>setTimeout(r,650));
+    const report = await loadJSON('data/report.json');
+    let history=[]; try{ history = await loadJSON('data/history.json'); }catch{}
+    render(report, history);
+  }catch(e){
+    $('#content').innerHTML = `<div class="card"><div class="empty">Couldn't load <code>data/report.json</code>.<br/><br/>Run the GitHub Actions workflow (<b>Run Curation Agent</b>) to generate the first report, then refresh.</div></div>`;
+  }finally{
+    btn.classList.remove('loading'); btn.disabled=false;
+  }
+}
+
+function showAbout(){
+  const dims = {
+    constitution:['35%','Diversity, kids-safety & language inclusivity (Constitution Art. II, V, VII)'],
+    strategy:['25%','Pillar coverage (Content/Distribution/Discovery) & target-segment fit'],
+    freshness:['25%','Stale items, expired rights, dead deeplinks, missing artwork'],
+    engagement:['15%','Position discipline, repetition, duplicates, rail-length sanity'],
+  };
+  $('#aboutDims').innerHTML = Object.entries(dims).map(([k,[w,d]])=>`
+    <div class="rec low"><div class="rtop"><span class="sev tag">${w}</span><b style="font-size:13px;text-transform:capitalize">${k}</b></div>
+    <div class="action" style="opacity:.85">${d}</div></div>`).join('');
+  const c=$('#aboutCard'); c.style.display = c.style.display==='none'?'block':'none';
+  c.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+$('#runBtn').addEventListener('click', run);
+$('#aboutBtn').addEventListener('click', showAbout);
+// auto-load on first visit
+run();
+</script>
+</body>
+</html>

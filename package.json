@@ -1,0 +1,14 @@
+{
+  "name": "jiotv-curation-agent",
+  "version": "1.0.0",
+  "description": "Rules-based smart curation agent for JioTV — scrapes, scores, recommends.",
+  "private": true,
+  "scripts": {
+    "scrape": "node agent/scrape.js",
+    "score": "node agent/run.js",
+    "agent": "node agent/scrape.js && node agent/run.js"
+  },
+  "dependencies": {
+    "playwright": "^1.45.0"
+  }
+}

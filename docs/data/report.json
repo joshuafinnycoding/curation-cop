@@ -1,0 +1,124 @@
+{
+  "capturedAt": "2026-06-01T09:00:00Z",
+  "scoredAt": "2026-06-01T06:23:37.258Z",
+  "source": "https://www.jiotv.com",
+  "overall": 73,
+  "grade": "B",
+  "dimensions": {
+    "constitution": {
+      "label": "Constitutional Alignment",
+      "weight": 0.35,
+      "score": 53,
+      "evidence": {
+        "langCoverage": 0.21428571428571427,
+        "genreCoverage": 0.5,
+        "hindiEng": 0.875
+      }
+    },
+    "strategy": {
+      "label": "Strategy Alignment",
+      "weight": 0.25,
+      "score": 84,
+      "evidence": {
+        "pillarsHit": [
+          "content",
+          "discovery",
+          "distribution"
+        ],
+        "segHit": [
+          "Cord-Cutter"
+        ]
+      }
+    },
+    "freshness": {
+      "label": "Freshness & Integrity",
+      "weight": 0.25,
+      "score": 82,
+      "evidence": {
+        "stale": 1,
+        "deadLinks": 1,
+        "noArt": 1,
+        "expired": 1
+      }
+    },
+    "engagement": {
+      "label": "Engagement Heuristics",
+      "weight": 0.15,
+      "score": 84,
+      "evidence": {
+        "dupItems": 1,
+        "shortRails": 4,
+        "longRails": 0
+      }
+    }
+  },
+  "recommendations": [
+    {
+      "severity": "high",
+      "dimension": "constitution",
+      "issue": "Only 3/14 first-class languages appear in curation.",
+      "action": "Add rails or items in under-represented languages (e.g. telugu, kannada, malayalam, marathi, bengali, gujarati). Constitution Art. II.7: every language is a full citizen, not a translated Hindi app."
+    },
+    {
+      "severity": "high",
+      "dimension": "constitution",
+      "issue": "Kids tab surfaces 1 item(s) above U/A 7+ (e.g. \"Adult Thriller\").",
+      "action": "Remove non-kids content from kids surfaces immediately. Art. IV/V: kids content must be siloed; safety is the default state."
+    },
+    {
+      "severity": "high",
+      "dimension": "freshness",
+      "issue": "1 item(s) have expired streaming rights but are still surfaced.",
+      "action": "Pull expired-rights items now — surfacing them risks partner-contract violations (Constitution Art. II.9; legal.md §7)."
+    },
+    {
+      "severity": "medium",
+      "dimension": "strategy",
+      "issue": "Curation doesn't clearly serve 4 of 5 target segments (TV Loyalist, Family Household, Feature Phone User, Premium Seeker).",
+      "action": "Ensure at least one rail speaks to each priority segment; the TV Loyalist and Feature Phone segments are the strategic moat."
+    },
+    {
+      "severity": "medium",
+      "dimension": "freshness",
+      "issue": "1 item(s) have malformed or missing deeplinks.",
+      "action": "Fix deeplinks (expected jioplay:// or https://). A tap that goes nowhere breaks 'the stream is the product'."
+    },
+    {
+      "severity": "medium",
+      "dimension": "freshness",
+      "issue": "1 item(s) on freshness-sensitive rails are older than 7 days.",
+      "action": "Refresh Trending/New Releases/Top 10 rails; stale items on these rails erode trust in the surface."
+    },
+    {
+      "severity": "medium",
+      "dimension": "engagement",
+      "issue": "4 rail(s) have fewer than 4 items.",
+      "action": "Merge or hide thin rails — a near-empty rail reads as broken and pushes good content below the fold."
+    },
+    {
+      "severity": "low",
+      "dimension": "freshness",
+      "issue": "1 item(s) are missing artwork.",
+      "action": "Backfill thumbnails; tiles without artwork tank CTR and look broken."
+    }
+  ],
+  "tabStats": [
+    {
+      "name": "For You",
+      "rails": 3,
+      "items": 6,
+      "banners": 2
+    },
+    {
+      "name": "Kids",
+      "rails": 1,
+      "items": 2,
+      "banners": 0
+    }
+  ],
+  "totals": {
+    "tabs": 2,
+    "rails": 4,
+    "items": 8
+  }
+}
