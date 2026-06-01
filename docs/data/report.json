@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-06-01T08:17:42.072Z",
-  "scoredAt": "2026-06-01T08:19:18.998Z",
+  "capturedAt": "2026-06-01T09:26:20.302Z",
+  "scoredAt": "2026-06-01T09:29:08.844Z",
   "source": "https://www.jiotv.com",
   "overall": 91,
   "grade": "A",
@@ -12,7 +12,7 @@
       "evidence": {
         "langCoverage": 0.5714285714285714,
         "genreCoverage": 0.5,
-        "hindiEng": 0.6607142857142857
+        "hindiEng": 0.6458333333333334
       }
     },
     "strategy": {
@@ -27,7 +27,6 @@
         "segHit": [
           "Cord-Cutter",
           "TV Loyalist",
-          "Family Household",
           "Feature Phone User",
           "Premium Seeker"
         ]
@@ -49,8 +48,8 @@
       "weight": 0.15,
       "score": 80,
       "evidence": {
-        "dupItems": 101,
-        "shortRails": 61,
+        "dupItems": 78,
+        "shortRails": 52,
         "longRails": 0
       }
     }
@@ -71,7 +70,7 @@
     {
       "severity": "medium",
       "dimension": "engagement",
-      "issue": "61 rail(s) have fewer than 4 items.",
+      "issue": "52 rail(s) have fewer than 4 items.",
       "action": "Merge or hide thin rails — a near-empty rail reads as broken and pushes good content below the fold."
     }
   ],
@@ -79,7 +78,7 @@
     {
       "name": "For You",
       "rails": 5,
-      "items": 81,
+      "items": 80,
       "banners": 8
     },
     {
@@ -102,32 +101,32 @@
     },
     {
       "name": "Specials",
-      "rails": 35,
+      "rails": 36,
       "items": 42,
       "banners": 8
     },
     {
       "name": "Kids",
-      "rails": 10,
-      "items": 33,
-      "banners": 8
+      "rails": 0,
+      "items": 0,
+      "banners": 0
     },
     {
       "name": "News",
-      "rails": 16,
-      "items": 47,
+      "rails": 15,
+      "items": 46,
       "banners": 8
     },
     {
       "name": "Shows",
-      "rails": 9,
-      "items": 47,
-      "banners": 8
+      "rails": 0,
+      "items": 0,
+      "banners": 0
     }
   ],
   "totals": {
     "tabs": 8,
-    "rails": 93,
-    "items": 595
+    "rails": 74,
+    "items": 513
   }
 }

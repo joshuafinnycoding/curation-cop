@@ -31,5 +31,16 @@
       "freshness": 100,
       "engagement": 80
     }
+  },
+  {
+    "scoredAt": "2026-06-01T09:29:08.844Z",
+    "overall": 91,
+    "grade": "A",
+    "dims": {
+      "constitution": 100,
+      "strategy": 75,
+      "freshness": 100,
+      "engagement": 80
+    }
   }
 ]

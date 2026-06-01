@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-01T08:17:42.072Z",
+  "capturedAt": "2026-06-01T09:26:20.302Z",
   "source": "https://www.jiotv.com",
   "tabs": [
     {
@@ -14,13 +14,10 @@
           "title": "Krishna Balram on Epic Kids"
         },
         {
-          "title": "Kuch Kuch Hota Hai on Colors Cineplex Bollywood"
+          "title": "Yeh Rishta Kya Kehlata Hai on Star Plus HD"
         },
         {
           "title": "Sankatmochan Mahabali Hanuman on Sony Pal"
-        },
-        {
-          "title": "Paapnaashini Ganga on Epic Bharat"
         },
         {
           "title": "Maya O Mamata on Sidharth TV"
@@ -30,6 +27,9 @@
         },
         {
           "title": "Krishna Balram on Epic Kids"
+        },
+        {
+          "title": "Yeh Rishta Kya Kehlata Hai on Star Plus HD"
         }
       ],
       "rails": [
@@ -51,21 +51,15 @@
               "hasArtwork": true
             },
             {
-              "title": "Kuch Kuch Hota Hai",
-              "channel": "Colors Cineplex Bollywood",
-              "deeplink": "https://www.jiotv.com/live-channel/colors-cineplex-bollywood/1763/kuch-kuch-hota-hai/2605301763006",
+              "title": "Yeh Rishta Kya Kehlata Hai",
+              "channel": "Star Plus HD",
+              "deeplink": "https://www.jiotv.com/live-channel/star-plus-hd/1132/yeh-rishta-kya-kehlata-hai/episode-169/2606011132014",
               "hasArtwork": true
             },
             {
               "title": "Sankatmochan Mahabali Hanuman",
               "channel": "Sony Pal",
               "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/sankatmochan-mahabali-hanuman/episode-23/260529474052",
-              "hasArtwork": true
-            },
-            {
-              "title": "Paapnaashini Ganga",
-              "channel": "Epic Bharat",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/paapnaashini-ganga/2605293383029",
               "hasArtwork": true
             },
             {
@@ -84,63 +78,63 @@
               "title": "Aaj Tak",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/aaj-tak/173/lunch-break/260601173036",
+              "deeplink": "https://www.jiotv.com/live-channel/aaj-tak/173/newsroom/260601173038",
               "hasArtwork": true
             },
             {
               "title": "TV9 Bharatvarsh",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/tv9-bharatvarsh/1251/bharatvarsh-ka-no-1-bulletin/2606011251016",
+              "deeplink": "https://www.jiotv.com/live-channel/tv9-bharatvarsh/1251/loud---clear/2606011251018",
               "hasArtwork": true
             },
             {
               "title": "India TV",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/india-tv/235/kahani-kursi-ki/260601235023",
+              "deeplink": "https://www.jiotv.com/live-channel/india-tv/235/kahani-kursi-ki/260601235024",
               "hasArtwork": true
             },
             {
               "title": "News 18 India",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/news-18-india/231/sulagtey-sawaal/260601231010",
+              "deeplink": "https://www.jiotv.com/live-channel/news-18-india/231/mudda-garam-hai/260601231011",
               "hasArtwork": true
             },
             {
               "title": "ABP News India",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/abp-news-india/177/1-khabar-1-minute/260601177028",
+              "deeplink": "https://www.jiotv.com/live-channel/abp-news-india/177/saas-bahu-aur-saazish/260601177030",
               "hasArtwork": true
             },
             {
               "title": "Republic Bharat",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/republic-bharat/1403/live---breaking/2606011403027",
+              "deeplink": "https://www.jiotv.com/live-channel/republic-bharat/1403/raftaar-100/2606011403029",
               "hasArtwork": true
             },
             {
               "title": "Zee News",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/zee-news/504/zee-special/260601504027",
+              "deeplink": "https://www.jiotv.com/live-channel/zee-news/504/zee-special/260601504029",
               "hasArtwork": true
             },
             {
               "title": "NDTV India",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/ndtv-india/258/india-report/260601258027",
+              "deeplink": "https://www.jiotv.com/live-channel/ndtv-india/258/dhuandhar-100/260601258029",
               "hasArtwork": true
             },
             {
               "title": "Times Now Navbharat",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/times-now-navbharat/1906/brahmashtra/2606011906016",
+              "deeplink": "https://www.jiotv.com/live-channel/times-now-navbharat/1906/times-now-navbharat-live/2606011906018",
               "hasArtwork": true
             },
             {
@@ -148,35 +142,35 @@
               "channel": "JioTV",
               "language": "hindi",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/bbc-news-hindi/1431/international/2606011431013",
+              "deeplink": "https://www.jiotv.com/live-channel/bbc-news-hindi/1431/bbc-investigations/2606011431014",
               "hasArtwork": true
             },
             {
               "title": "Sony Pal",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/taarak-mehta-ka-ooltah-chashmah/episode-4278/260601474036",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/taarak-mehta-ka-ooltah-chashmah/episode-3266/260601474038",
               "hasArtwork": true
             },
             {
               "title": "NH BollyFlix",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/nh-bollyflix/3336/sarkar-movie/2606013336006",
+              "deeplink": "https://www.jiotv.com/live-channel/nh-bollyflix/3336/lajja-movie/2606013336007",
               "hasArtwork": true
             },
             {
               "title": "Shemaroo TV",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/crime-world/episode-202/2606011961013",
+              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/crime-world/episode-446/2606011961014",
               "hasArtwork": true
             },
             {
               "title": "YRF Music",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/yrf-music/2753/2000s-bollywood-hits/2606012753011",
+              "deeplink": "https://www.jiotv.com/live-channel/yrf-music/2753/summer-superhits/2606012753012",
               "hasArtwork": true
             },
             {
@@ -204,7 +198,7 @@
               "title": "B4U Music",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/b4u-music/183/bollywood-bang-bang/260601183019",
+              "deeplink": "https://www.jiotv.com/live-channel/b4u-music/183/boom-box/260601183021",
               "hasArtwork": true
             },
             {
@@ -218,21 +212,21 @@
               "title": "9X Jalwa",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/9x-jalwa/440/super-swag/260601440026",
+              "deeplink": "https://www.jiotv.com/live-channel/9x-jalwa/440/jalwa-melody-wali-vibe/260601440028",
               "hasArtwork": true
             },
             {
               "title": "B4U Kadak",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/b4u-kadak/1295/khatron-ke-khiladi-movie/2606011295005",
+              "deeplink": "https://www.jiotv.com/live-channel/b4u-kadak/1295/mafia-raaj-movie/2606011295006",
               "hasArtwork": true
             },
             {
               "title": "9XM",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/9xm/587/9xm-bazillion-views/260601587027",
+              "deeplink": "https://www.jiotv.com/live-channel/9xm/587/9xm-bazillion-views/260601587029",
               "hasArtwork": true
             },
             {
@@ -246,7 +240,7 @@
               "title": "Zee Business",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/zee-business/657/market-radar/260601657027",
+              "deeplink": "https://www.jiotv.com/live-channel/zee-business/657/final-trade/260601657029",
               "hasArtwork": true
             }
           ]
@@ -277,7 +271,7 @@
             {
               "title": "Sony SAB HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-sab-hd/471/maddam-sir/episode-316/260601471022",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-sab-hd/471/pushpa-impossible/episode-1246/260601471024",
               "hasArtwork": true
             },
             {
@@ -295,7 +289,7 @@
             {
               "title": "Sun TV HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-tv-hd/896/puthu-vasantham/episode-868/260601896016",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-tv-hd/896/irumalargal/episode-132/260601896018",
               "hasArtwork": true
             },
             {
@@ -308,26 +302,26 @@
               "title": "ETV Telugu",
               "channel": "JioTV",
               "language": "telugu",
-              "deeplink": "https://www.jiotv.com/live-channel/etv-telugu/629/vasundhara/episode-314/260601629013",
+              "deeplink": "https://www.jiotv.com/live-channel/etv-telugu/629/veyi-subhamulu-kalugu-neeku/episode-314/260601629015",
               "hasArtwork": true
             },
             {
               "title": "SET HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/best-of-crime-patrol---crime-patrol-dial-100/episode-59/260601291014",
+              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/best-of-crime-patrol/episode-299/260601291016",
               "hasArtwork": true
             },
             {
               "title": "Star Jalsha HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-jalsha-hd/317/sreemoyee/episode-20/260601317020",
+              "deeplink": "https://www.jiotv.com/live-channel/star-jalsha-hd/317/kusum-dola/episode-63/260601317021",
               "hasArtwork": true
             },
             {
               "title": "Sony Marathi SD",
               "channel": "JioTV",
               "language": "marathi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-marathi-sd/1146/aaj-kay-banvu-ya--madhura-special/episode-196/2606011146018",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-marathi-sd/1146/maharashtrachi-hasya-jatra/episode-710/2606011146019",
               "hasArtwork": true
             },
             {
@@ -348,7 +342,7 @@
               "title": "Sony Yay Hindi",
               "channel": "JioTV",
               "language": "hindi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-hindi/872/honey-bunny-ka-jholmaal/episode-286/260601872053",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-hindi/872/guru-aur-bhole/episode-172/260601872058",
               "hasArtwork": true
             },
             {
@@ -360,13 +354,13 @@
             {
               "title": "Star Bharat HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-bharat-hd/931/savdhaan-india--rewind/episode-2009/260601931019",
+              "deeplink": "https://www.jiotv.com/live-channel/star-bharat-hd/931/savdhaan-india--rewind/episode-2101/260601931020",
               "hasArtwork": true
             },
             {
               "title": "Sun Gemini HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-gemini-hd/897/maa-inti-devatha/260601897019",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-gemini-hd/897/mass-jathara/260601897021",
               "hasArtwork": true
             },
             {
@@ -378,31 +372,31 @@
             {
               "title": "ETV Plus HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/etv-plus-hd/2956/sumangali/episode-139/2606012956010",
+              "deeplink": "https://www.jiotv.com/live-channel/etv-plus-hd/2956/nenu-shailaja/episode-46/2606012956012",
               "hasArtwork": true
             },
             {
               "title": "Star Gold 2 HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-gold-2-hd/3096/my-boss-bajrangbali-movie/2606013096006",
+              "deeplink": "https://www.jiotv.com/live-channel/star-gold-2-hd/3096/bhoothnath-movie/2606013096007",
               "hasArtwork": true
             },
             {
               "title": "Sun Udaya HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-hd/901/vitala-vitala-panduranga/episode-163/260601901020",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-hd/901/mr--and-mrs--ramachari/260601901022",
               "hasArtwork": true
             },
             {
               "title": "Sony aath",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-aath/697/amader-thakurmar-jhuli/episode-231/260601697015",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-aath/697/amader-thakurmar-jhuli/episode-231/260601697017",
               "hasArtwork": true
             },
             {
               "title": "Star World HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-world-hd/1105/star-world-hd/2606011105013",
+              "deeplink": "https://www.jiotv.com/live-channel/star-world-hd/1105/star-world-hd/2606011105014",
               "hasArtwork": true
             },
             {
@@ -422,7 +416,7 @@
               "title": "Sony Yay Tamil",
               "channel": "JioTV",
               "language": "tamil",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-tamil/873/honey-bunny-ka-jholmaal/episode-52/260601873053",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-tamil/873/honey-bunny-ka-jholmaal/episode-111/260601873058",
               "hasArtwork": true
             },
             {
@@ -435,14 +429,14 @@
             {
               "title": "Star Maa",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-maa/1138/paluke-bangaramayenaa/episode-863/2606011138013",
+              "deeplink": "https://www.jiotv.com/live-channel/star-maa/1138/saptapadi/episode-216/2606011138015",
               "hasArtwork": true
             },
             {
               "title": "Sony Yay Telugu",
               "channel": "JioTV",
               "language": "telugu",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-telugu/874/honey-bunny-ka-jholmaal/episode-278/260601874053",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-telugu/874/kicko-and-super-speedo/episode-19/260601874058",
               "hasArtwork": true
             },
             {
@@ -455,45 +449,45 @@
               "title": "Sun Music HD",
               "channel": "JioTV",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-music-hd/895/mellisaiye/260601895010",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-music-hd/895/breakfree/260601895011",
               "hasArtwork": true
             },
             {
               "title": "Star Pravah HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-pravah-hd/336/halad-rusali-kunku-hasalaa/episode-286/260601336026",
+              "deeplink": "https://www.jiotv.com/live-channel/star-pravah-hd/336/tujhya-sobatine/episode-117/260601336028",
               "hasArtwork": true
             },
             {
               "title": "Sony BBC Earth HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd/821/planet-earth/episode-3/260601821019",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd/821/deadly-60/episode-20/260601821021",
               "hasArtwork": true
             },
             {
               "title": "Sun Surya HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-surya-hd/900/ramayanam/260601900021",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-surya-hd/900/amme-mookambike/260601900022",
               "hasArtwork": true
             },
             {
               "title": "Star Gold Thrills",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-gold-thrills/3098/spider-man--homecoming-movie/2606013098008",
+              "deeplink": "https://www.jiotv.com/live-channel/star-gold-thrills/3098/the-angry-birds-movie-2-movie/2606013098009",
               "hasArtwork": true
             },
             {
               "title": "Sony BBC Earth HD English",
               "channel": "JioTV",
               "language": "english",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd-english/852/sony-bbc-earth-hd-english/260601852013",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd-english/852/sony-bbc-earth-hd-english/260601852014",
               "hasArtwork": true
             },
             {
               "title": "Sun Udaya Comedy",
               "channel": "JioTV",
               "genre": "comedy",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-comedy/733/blockbuster-mid-day-talkies/260601733015",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-comedy/733/sikkapatte-nakkubidi/260601733018",
               "hasArtwork": true
             },
             {
@@ -506,26 +500,26 @@
             {
               "title": "Sony Ten 1 HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-1-hd/162/extraaa-serve/260601162017",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-1-hd/162/2026-roland-garros-tennis/260601162018",
               "hasArtwork": true
             },
             {
               "title": "Star Vijay HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-vijay-hd/368/siragadikka-aasai/episode-1012/260601368019",
+              "deeplink": "https://www.jiotv.com/live-channel/star-vijay-hd/368/thendrale-mella-pesu/episode-281/260601368021",
               "hasArtwork": true
             },
             {
               "title": "Sony Ten 2 HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-2-hd/891/extraaa-serve/260601891012",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-2-hd/891/2026-roland-garros-tennis/260601891013",
               "hasArtwork": true
             },
             {
               "title": "Sun Gemini Music HD",
               "channel": "JioTV",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-gemini-music-hd/898/fresh-hits/260601898010",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-gemini-music-hd/898/sun-gemini-music-hd/260601898011",
               "hasArtwork": true
             },
             {
@@ -538,20 +532,20 @@
               "title": "Sony Ten 3 HD Hindi",
               "channel": "JioTV",
               "language": "hindi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-3-hd-hindi/892/extraaa-serve/260601892016",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-3-hd-hindi/892/2026-roland-garros-tennis/260601892017",
               "hasArtwork": true
             },
             {
               "title": "Sun Udaya Music",
               "channel": "JioTV",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-music/744/flash-back-jabardast/260601744013",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-music/744/flash-back-jabardast/260601744015",
               "hasArtwork": true
             },
             {
               "title": "Star Kiran",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-kiran/3267/tulasi/episode-235/2606013267013",
+              "deeplink": "https://www.jiotv.com/live-channel/star-kiran/3267/tulasi/episode-236/2606013267014",
               "hasArtwork": true
             },
             {
@@ -564,21 +558,21 @@
               "title": "Sun Surya Music",
               "channel": "JioTV",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-surya-music/747/hridayam/260601747010",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-surya-music/747/nostalgia/260601747011",
               "hasArtwork": true
             },
             {
               "title": "Sony Ten 4 Tamil",
               "channel": "JioTV",
               "language": "tamil",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-tamil/1774/australian-open/2606011774013",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-tamil/1774/bangladesh-tour-of-sri-lanka-2025/episode-1/2606011774014",
               "hasArtwork": true
             },
             {
               "title": "Sony Ten 4 Telugu",
               "channel": "JioTV",
               "language": "telugu",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-telugu/1775/australian-open/2606011775012",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-telugu/1775/zimbabwe-tour-of-england-2025/2606011775013",
               "hasArtwork": true
             }
           ]
@@ -983,13 +977,13 @@
             {
               "title": "SET HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/best-of-crime-patrol/episode-298/260601291015",
+              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/best-of-crime-patrol/episode-299/260601291016",
               "hasArtwork": true
             },
             {
               "title": "Sony SAB HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-sab-hd/471/maddam-sir/episode-316/260601471022",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-sab-hd/471/pushpa-impossible/episode-1246/260601471024",
               "hasArtwork": true
             },
             {
@@ -1002,14 +996,14 @@
               "title": "Sony Marathi SD",
               "channel": "JioTV",
               "language": "marathi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-marathi-sd/1146/aaj-kay-banvu-ya--madhura-special/episode-196/2606011146018",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-marathi-sd/1146/maharashtrachi-hasya-jatra/episode-710/2606011146019",
               "hasArtwork": true
             },
             {
               "title": "Sony Yay Hindi",
               "channel": "JioTV",
               "language": "hindi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-hindi/872/honey-bunny-ka-jholmaal/episode-286/260601872053",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-hindi/872/guru-aur-bhole/episode-172/260601872058",
               "hasArtwork": true
             },
             {
@@ -1021,21 +1015,21 @@
             {
               "title": "Sony aath",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-aath/697/amader-thakurmar-jhuli/episode-231/260601697015",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-aath/697/amader-thakurmar-jhuli/episode-231/260601697017",
               "hasArtwork": true
             },
             {
               "title": "Sony Yay Tamil",
               "channel": "JioTV",
               "language": "tamil",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-tamil/873/honey-bunny-ka-jholmaal/episode-52/260601873053",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-tamil/873/honey-bunny-ka-jholmaal/episode-111/260601873058",
               "hasArtwork": true
             },
             {
               "title": "Sony Yay Telugu",
               "channel": "JioTV",
               "language": "telugu",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-telugu/874/honey-bunny-ka-jholmaal/episode-278/260601874053",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-yay-telugu/874/kicko-and-super-speedo/episode-19/260601874058",
               "hasArtwork": true
             },
             {
@@ -1047,33 +1041,33 @@
             {
               "title": "Sony BBC Earth HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd/821/planet-earth/episode-3/260601821019",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd/821/deadly-60/episode-20/260601821021",
               "hasArtwork": true
             },
             {
               "title": "Sony BBC Earth HD English",
               "channel": "JioTV",
               "language": "english",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd-english/852/sony-bbc-earth-hd-english/260601852013",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-bbc-earth-hd-english/852/sony-bbc-earth-hd-english/260601852014",
               "hasArtwork": true
             },
             {
               "title": "Sony Ten 1 HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-1-hd/162/extraaa-serve/260601162017",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-1-hd/162/2026-roland-garros-tennis/260601162018",
               "hasArtwork": true
             },
             {
               "title": "Sony Ten 2 HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-2-hd/891/extraaa-serve/260601891012",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-2-hd/891/2026-roland-garros-tennis/260601891013",
               "hasArtwork": true
             },
             {
               "title": "Sony Ten 3 HD Hindi",
               "channel": "JioTV",
               "language": "hindi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-3-hd-hindi/892/extraaa-serve/260601892016",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-3-hd-hindi/892/2026-roland-garros-tennis/260601892017",
               "hasArtwork": true
             },
             {
@@ -1086,14 +1080,14 @@
               "title": "Sony Ten 4 Tamil",
               "channel": "JioTV",
               "language": "tamil",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-tamil/1774/australian-open/2606011774013",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-tamil/1774/bangladesh-tour-of-sri-lanka-2025/episode-1/2606011774014",
               "hasArtwork": true
             },
             {
               "title": "Sony Ten 4 Telugu",
               "channel": "JioTV",
               "language": "telugu",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-telugu/1775/australian-open/2606011775012",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-4-telugu/1775/zimbabwe-tour-of-england-2025/2606011775013",
               "hasArtwork": true
             }
           ]
@@ -2033,7 +2027,7 @@
             {
               "title": "Star Gold 2 HD",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-gold-2-hd/3096/my-boss-bajrangbali-movie/2606013096006",
+              "deeplink": "https://www.jiotv.com/live-channel/star-gold-2-hd/3096/bhoothnath-movie/2606013096007",
               "hasArtwork": true
             },
             {
@@ -2045,7 +2039,7 @@
             {
               "title": "Star Gold Thrills",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/star-gold-thrills/3098/spider-man--homecoming-movie/2606013098008",
+              "deeplink": "https://www.jiotv.com/live-channel/star-gold-thrills/3098/the-angry-birds-movie-2-movie/2606013098009",
               "hasArtwork": true
             }
           ]
@@ -2082,7 +2076,7 @@
             {
               "title": "undefined",
               "channel": "JioTV",
-              "deeplink": "https://www.jiotv.com/live-channel/tamil-times/3531/ree/2605263531003",
+              "deeplink": "https://www.jiotv.com/live-channel/maa-gold-hd/759/maa-gold-hd/260601759014",
               "hasArtwork": true
             },
             {
@@ -2104,13 +2098,13 @@
           "title": "Collegiate Rugby Championship on All Women's Sports Network"
         },
         {
-          "title": "444 Days - Aidan Heslop Returns on Red Bull TV"
+          "title": "Red Bull TV on Red Bull TV"
         },
         {
-          "title": "Extraaa Serve on Sony Ten 2 HD"
+          "title": "2026 Roland-Garros Tennis on Sony Ten 2 HD"
         },
         {
-          "title": "World Chess Show Episode 1 on World Chess"
+          "title": "World Chess Show Episode 3 on World Chess"
         },
         {
           "title": "3rd ODI - Highlights - 16 May 2026 on Sony LIV"
@@ -2138,21 +2132,21 @@
               "hasArtwork": true
             },
             {
-              "title": "444 Days - Aidan Heslop Returns",
+              "title": "Red Bull TV",
               "channel": "Red Bull TV",
-              "deeplink": "https://www.jiotv.com/live-channel/red-bull-tv/2779/444-days---aidan-heslop-returns/2606012779015",
+              "deeplink": "https://www.jiotv.com/live-channel/red-bull-tv/2779/red-bull-tv/2606012779016",
               "hasArtwork": true
             },
             {
-              "title": "Extraaa Serve",
+              "title": "2026 Roland-Garros Tennis",
               "channel": "Sony Ten 2 HD",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-2-hd/891/extraaa-serve/260601891012",
+              "deeplink": "https://www.jiotv.com/live-channel/sony-ten-2-hd/891/2026-roland-garros-tennis/260601891013",
               "hasArtwork": true
             },
             {
-              "title": "World Chess Show Episode 1",
+              "title": "World Chess Show Episode 3",
               "channel": "World Chess",
-              "deeplink": "https://www.jiotv.com/live-channel/world-chess/3499/world-chess-show-episode-1/2606013499020",
+              "deeplink": "https://www.jiotv.com/live-channel/world-chess/3499/world-chess-show-episode-3/2606013499022",
               "hasArtwork": true
             },
             {
@@ -2916,10 +2910,10 @@
       "path": "/specials",
       "banners": [
         {
-          "title": "Jukebox on Ghaint Punjab"
+          "title": "Tutgi Tadak Kar ke on Ghaint Punjab"
         },
         {
-          "title": "D.Gray-Man on Animax"
+          "title": "Kubo Won't Let Me Be Invisible on Animax"
         },
         {
           "title": "Dharavi Bank on undefined"
@@ -2928,16 +2922,16 @@
           "title": "Desi Music Station on Desi Music Station"
         },
         {
-          "title": "Lost Recipes on EPIC TV"
+          "title": "Raja Rasoi Aur Andaaz Anokha on EPIC TV"
         },
         {
-          "title": "2000s Bollywood Hits on YRF Music"
+          "title": "Summer Superhits on YRF Music"
         },
         {
-          "title": "Popular In Town on Saga Music"
+          "title": "Fresh Faces on Saga Music"
         },
         {
-          "title": "Jukebox on Ghaint Punjab"
+          "title": "Tutgi Tadak Kar ke on Ghaint Punjab"
         }
       ],
       "rails": [
@@ -2946,15 +2940,15 @@
           "type": "rail",
           "items": [
             {
-              "title": "Jukebox",
+              "title": "Tutgi Tadak Kar ke",
               "channel": "Ghaint Punjab",
-              "deeplink": "https://www.jiotv.com/live-channel/ghaint-punjab/2752/jukebox/2606012752005",
+              "deeplink": "https://www.jiotv.com/live-channel/ghaint-punjab/2752/tutgi-tadak-kar-ke/2606012752006",
               "hasArtwork": true
             },
             {
-              "title": "D.Gray-Man",
+              "title": "Kubo Won't Let Me Be Invisible",
               "channel": "Animax",
-              "deeplink": "https://www.jiotv.com/live-channel/animax/2258/d-gray-man/episode-21/2606012258027",
+              "deeplink": "https://www.jiotv.com/live-channel/animax/2258/kubo-won-t-let-me-be-invisible/episode-1/2606012258029",
               "hasArtwork": true
             },
             {
@@ -2967,27 +2961,27 @@
               "title": "Desi Music Station",
               "channel": "Desi Music Station",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/desi-music-station/2252/desi-music-station/2606012252013",
+              "deeplink": "https://www.jiotv.com/live-channel/desi-music-station/2252/desi-music-station/2606012252014",
               "hasArtwork": true
             },
             {
-              "title": "Lost Recipes",
+              "title": "Raja Rasoi Aur Andaaz Anokha",
               "channel": "EPIC TV",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-tv/3382/lost-recipes/2606013382016",
+              "deeplink": "https://www.jiotv.com/live-channel/epic-tv/3382/raja-rasoi-aur-andaaz-anokha/2606013382017",
               "hasArtwork": true
             },
             {
-              "title": "2000s Bollywood Hits",
+              "title": "Summer Superhits",
               "channel": "YRF Music",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/yrf-music/2753/2000s-bollywood-hits/2606012753011",
+              "deeplink": "https://www.jiotv.com/live-channel/yrf-music/2753/summer-superhits/2606012753012",
               "hasArtwork": true
             },
             {
-              "title": "Popular In Town",
+              "title": "Fresh Faces",
               "channel": "Saga Music",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/saga-music/2750/popular-in-town/2606012750014",
+              "deeplink": "https://www.jiotv.com/live-channel/saga-music/2750/fresh-faces/2606012750015",
               "hasArtwork": true
             }
           ]
@@ -3012,7 +3006,7 @@
             {
               "title": "9XM Bazillion Views",
               "channel": "9XM - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/9xm/587/9xm-bazillion-views/260601587027",
+              "deeplink": "https://www.jiotv.com/live-channel/9xm/587/9xm-bazillion-views/260601587029",
               "hasArtwork": true
             }
           ]
@@ -3022,29 +3016,29 @@
           "type": "rail",
           "items": [
             {
-              "title": "2000s Bollywood Hits",
+              "title": "Summer Superhits",
               "channel": "YRF Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/yrf-music/2753/2000s-bollywood-hits/2606012753011",
+              "deeplink": "https://www.jiotv.com/live-channel/yrf-music/2753/summer-superhits/2606012753012",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "2000s Bollywood Hits",
+          "title": "Summer Superhits",
           "type": "rail",
           "items": [
             {
-              "title": "Popular In Town",
+              "title": "Fresh Faces",
               "channel": "Saga Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/saga-music/2750/popular-in-town/2606012750014",
+              "deeplink": "https://www.jiotv.com/live-channel/saga-music/2750/fresh-faces/2606012750015",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Popular In Town",
+          "title": "Fresh Faces",
           "type": "rail",
           "items": [
             {
@@ -3060,59 +3054,59 @@
           "type": "rail",
           "items": [
             {
-              "title": "Bhoomi 2",
+              "title": "Bhoomi 1",
               "channel": "Merchant Records - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/merchant-records/2064/bhoomi-2/2606012064013",
+              "deeplink": "https://www.jiotv.com/live-channel/merchant-records/2064/bhoomi-1/2606012064014",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Bhoomi 2",
+          "title": "Bhoomi 1",
           "type": "rail",
           "items": [
             {
-              "title": "Bollywood Bang Bang",
+              "title": "BOOM BOX",
               "channel": "B4U Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/b4u-music/183/bollywood-bang-bang/260601183019",
+              "deeplink": "https://www.jiotv.com/live-channel/b4u-music/183/boom-box/260601183021",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Bollywood Bang Bang",
+          "title": "BOOM BOX",
           "type": "rail",
           "items": [
             {
-              "title": "Hits Forever",
+              "title": "Melody Makers",
               "channel": "Shemaroo Filmy Gaane - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-filmy-gaane/3074/hits-forever/2606013074006",
+              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-filmy-gaane/3074/melody-makers/2606013074007",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Hits Forever",
+          "title": "Melody Makers",
           "type": "rail",
           "items": [
             {
-              "title": "Bollywood Baaja",
+              "title": "Non-Stop Hits",
               "channel": "Boogle Bollywood - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/boogle-bollywood/962/bollywood-baaja/260601962028",
+              "deeplink": "https://www.jiotv.com/live-channel/boogle-bollywood/962/non-stop-hits/260601962030",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Bollywood Baaja",
+          "title": "Non-Stop Hits",
           "type": "rail",
           "items": [
             {
               "title": "PEACE MUSIC",
               "channel": "PEACE MUSIC - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/peace-music/1103/peace-music/2606011103013",
+              "deeplink": "https://www.jiotv.com/live-channel/peace-music/1103/peace-music/2606011103014",
               "hasArtwork": true
             }
           ]
@@ -3122,36 +3116,35 @@
           "type": "rail",
           "items": [
             {
-              "title": "Super Swag",
+              "title": "Jalwa Melody Wali Vibe",
               "channel": "9X Jalwa - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/9x-jalwa/440/super-swag/260601440026",
+              "deeplink": "https://www.jiotv.com/live-channel/9x-jalwa/440/jalwa-melody-wali-vibe/260601440028",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Super Swag",
+          "title": "Jalwa Melody Wali Vibe",
           "type": "rail",
           "items": [
             {
-              "title": "My Life My Music",
+              "title": "India Stage",
               "channel": "Insync - live program",
-              "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/insync/1286/my-life-my-music/2606011286018",
+              "deeplink": "https://www.jiotv.com/live-channel/insync/1286/india-stage/2606011286019",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "My Life My Music",
+          "title": "India Stage",
           "type": "rail",
           "items": [
             {
               "title": "Desi Music Station",
               "channel": "Desi Music Station - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/desi-music-station/2252/desi-music-station/2606012252013",
+              "deeplink": "https://www.jiotv.com/live-channel/desi-music-station/2252/desi-music-station/2606012252014",
               "hasArtwork": true
             }
           ]
@@ -3161,35 +3154,35 @@
           "type": "rail",
           "items": [
             {
-              "title": "Roadies Revolution",
+              "title": "Khatron Ke Khiladi",
               "channel": "MTV HD - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/mtv-hd/1145/roadies-revolution/2606011145012",
+              "deeplink": "https://www.jiotv.com/live-channel/mtv-hd/1145/khatron-ke-khiladi/2606011145013",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Roadies Revolution",
+          "title": "Khatron Ke Khiladi",
           "type": "rail",
           "items": [
             {
-              "title": "Web Series Time",
+              "title": "Mere Wala Gaana",
               "channel": "Oye Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/oye-music/2936/web-series-time/2606012936013",
+              "deeplink": "https://www.jiotv.com/live-channel/oye-music/2936/mere-wala-gaana/2606012936014",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Web Series Time",
+          "title": "Mere Wala Gaana",
           "type": "rail",
           "items": [
             {
               "title": "Haryana Beats",
               "channel": "Haryana Beats - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/haryana-beats/1694/haryana-beats/2606011694013",
+              "deeplink": "https://www.jiotv.com/live-channel/haryana-beats/1694/haryana-beats/2606011694014",
               "hasArtwork": true
             }
           ]
@@ -3199,46 +3192,46 @@
           "type": "rail",
           "items": [
             {
-              "title": "Mellisaiye",
+              "title": "BreakFree",
               "channel": "Sun Music HD - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-music-hd/895/mellisaiye/260601895010",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-music-hd/895/breakfree/260601895011",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Mellisaiye",
+          "title": "BreakFree",
           "type": "rail",
           "items": [
             {
-              "title": "Puratchi Thalaivar",
+              "title": "Kollywood Retro",
               "channel": "Jaya Max - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/jaya-max/420/puratchi-thalaivar/260601420010",
+              "deeplink": "https://www.jiotv.com/live-channel/jaya-max/420/kollywood-retro/260601420011",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Puratchi Thalaivar",
+          "title": "Kollywood Retro",
           "type": "rail",
           "items": [
             {
-              "title": "MIX @ 1",
+              "title": "Non Stop Tunes",
               "channel": "Tunes 6 - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/tunes-6/803/mix---1/260601803012",
+              "deeplink": "https://www.jiotv.com/live-channel/tunes-6/803/non-stop-tunes/260601803014",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "MIX @ 1",
+          "title": "Non Stop Tunes",
           "type": "rail",
           "items": [
             {
-              "title": "7 Tunes",
+              "title": "Flash Back",
               "channel": "Raj Musix - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/raj-musix/748/7-tunes/260601748009",
+              "deeplink": "https://www.jiotv.com/live-channel/raj-musix/748/flash-back/260601748010",
               "hasArtwork": true
             }
           ]
@@ -3248,35 +3241,35 @@
           "type": "rail",
           "items": [
             {
-              "title": "7 Tunes",
+              "title": "Flash Back",
               "channel": "Raj Musix - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/raj-musix/748/7-tunes/260601748009",
+              "deeplink": "https://www.jiotv.com/live-channel/raj-musix/748/flash-back/260601748010",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "7 Tunes",
+          "title": "Flash Back",
           "type": "rail",
           "items": [
             {
-              "title": "Prema Raga",
+              "title": "Commercial Slot",
               "channel": "Public Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/public-music/773/prema-raga/260601773009",
+              "deeplink": "https://www.jiotv.com/live-channel/public-music/773/commercial-slot/260601773011",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Prema Raga",
+          "title": "Commercial Slot",
           "type": "rail",
           "items": [
             {
               "title": "Flash Back Jabardast",
               "channel": "Sun Udaya Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-music/744/flash-back-jabardast/260601744013",
+              "deeplink": "https://www.jiotv.com/live-channel/sun-udaya-music/744/flash-back-jabardast/260601744015",
               "hasArtwork": true
             }
           ]
@@ -3288,7 +3281,7 @@
             {
               "title": "Ullu Da Patha's Playlist",
               "channel": "9X Tashan - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/9x-tashan/732/ullu-da-patha-s-playlist/260601732027",
+              "deeplink": "https://www.jiotv.com/live-channel/9x-tashan/732/ullu-da-patha-s-playlist/260601732029",
               "hasArtwork": true
             }
           ]
@@ -3301,7 +3294,7 @@
               "title": "Punjabi Melodies",
               "channel": "Punjabi Melodies - live program",
               "language": "punjabi",
-              "deeplink": "https://www.jiotv.com/live-channel/punjabi-melodies/2325/punjabi-melodies/2606012325013",
+              "deeplink": "https://www.jiotv.com/live-channel/punjabi-melodies/2325/punjabi-melodies/2606012325014",
               "hasArtwork": true
             }
           ]
@@ -3327,7 +3320,7 @@
               "title": "Only Music",
               "channel": "Only Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/only-music/903/only-music/260601903013",
+              "deeplink": "https://www.jiotv.com/live-channel/only-music/903/only-music/260601903014",
               "hasArtwork": true
             }
           ]
@@ -3337,16 +3330,16 @@
           "type": "rail",
           "items": [
             {
-              "title": "Chak De Hits",
+              "title": "Power Pack",
               "channel": "PTC Chak De - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/ptc-chak-de/1172/chak-de-hits/2606011172008",
+              "deeplink": "https://www.jiotv.com/live-channel/ptc-chak-de/1172/power-pack/2606011172009",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Chak De Hits",
+          "title": "Power Pack",
           "type": "rail",
           "items": [
             {
@@ -3364,7 +3357,7 @@
             {
               "title": "Balle Beats",
               "channel": "Balle Balle TV - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/balle-balle-tv/1453/balle-beats/2606011453012",
+              "deeplink": "https://www.jiotv.com/live-channel/balle-balle-tv/1453/balle-beats/2606011453014",
               "hasArtwork": true
             }
           ]
@@ -3374,29 +3367,35 @@
           "type": "rail",
           "items": [
             {
-              "title": "Popular In Town",
+              "title": "Fresh Faces",
               "channel": "Saga Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/saga-music/2750/popular-in-town/2606012750014",
+              "deeplink": "https://www.jiotv.com/live-channel/saga-music/2750/fresh-faces/2606012750015",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Jukebox",
+          "title": "Tutgi Tadak Kar ke",
           "type": "rail",
           "items": [
             {
-              "title": "Shabad Kirtan",
-              "channel": "Sikh Ratnavali - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sikh-ratnavali/2754/shabad-kirtan/2606012754010",
+              "title": "Sukhmani Sahib",
+              "channel": "Sikh Ratnavali - live program",
+              "deeplink": "https://www.jiotv.com/live-channel/sikh-ratnavali/2754/sukhmani-sahib/2606012754012",
               "hasArtwork": true
-            },
+            }
+          ]
+        },
+        {
+          "title": "Sukhmani Sahib",
+          "type": "rail",
+          "items": [
             {
               "title": "PTC Music",
               "channel": "PTC Music - live program",
               "genre": "music",
-              "deeplink": "https://www.jiotv.com/live-channel/ptc-music/1189/ptc-music/2606011189013",
+              "deeplink": "https://www.jiotv.com/live-channel/ptc-music/1189/ptc-music/2606011189014",
               "hasArtwork": true
             }
           ]
@@ -3422,7 +3421,7 @@
               "title": "Bhojpuri Junction",
               "channel": "Bhojpuri Junction - live program",
               "language": "bhojpuri",
-              "deeplink": "https://www.jiotv.com/live-channel/bhojpuri-junction/2229/bhojpuri-junction/2606012229013",
+              "deeplink": "https://www.jiotv.com/live-channel/bhojpuri-junction/2229/bhojpuri-junction/2606012229014",
               "hasArtwork": true
             }
           ]
@@ -3433,316 +3432,9 @@
       "id": "kids",
       "name": "Kids",
       "path": "/kids",
-      "banners": [
-        {
-          "title": "LS Teen Kaal Ka Dhamaal on Pogo Hindi"
-        },
-        {
-          "title": "Roll No 21 on Discovery Kids Hindi"
-        },
-        {
-          "title": "Luv Kushh on Green Gold TV"
-        },
-        {
-          "title": "D.Gray-Man on Animax"
-        },
-        {
-          "title": "Akul Nakul on Epic Kids"
-        },
-        {
-          "title": "Rainbow Rangers on Power Kids TV"
-        },
-        {
-          "title": "Soothing Melodies 012 on HooplaKidz TV"
-        },
-        {
-          "title": "LS Teen Kaal Ka Dhamaal on Pogo Hindi"
-        }
-      ],
-      "rails": [
-        {
-          "title": "Featured",
-          "type": "rail",
-          "items": [
-            {
-              "title": "LS Teen Kaal Ka Dhamaal",
-              "channel": "Pogo Hindi",
-              "language": "hindi",
-              "deeplink": "https://www.jiotv.com/live-channel/pogo-hindi/559/ls-teen-kaal-ka-dhamaal/episode-1/260601559028",
-              "hasArtwork": true
-            },
-            {
-              "title": "Roll No 21",
-              "channel": "Discovery Kids Hindi",
-              "language": "hindi",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/discovery-kids-hindi/554/roll-no-21/260601554067",
-              "hasArtwork": true
-            },
-            {
-              "title": "Luv Kushh",
-              "channel": "Green Gold TV",
-              "deeplink": "https://www.jiotv.com/live-channel/green-gold-tv/3467/luv-kushh/2606013467028",
-              "hasArtwork": true
-            },
-            {
-              "title": "D.Gray-Man",
-              "channel": "Animax",
-              "deeplink": "https://www.jiotv.com/live-channel/animax/2258/d-gray-man/episode-21/2606012258027",
-              "hasArtwork": true
-            },
-            {
-              "title": "Akul Nakul",
-              "channel": "Epic Kids",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/akul-nakul/2606013385008",
-              "hasArtwork": true
-            },
-            {
-              "title": "Rainbow Rangers",
-              "channel": "Power Kids TV",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/power-kids-tv/2774/rainbow-rangers/2606012774013",
-              "hasArtwork": true
-            },
-            {
-              "title": "Soothing Melodies 012",
-              "channel": "HooplaKidz TV",
-              "deeplink": "https://www.jiotv.com/live-channel/hooplakidz-tv/1780/soothing-melodies-012/episode-12/2606011780025",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Premium Kids Channels 👑",
-          "type": "channel",
-          "items": [
-            {
-              "title": "Cartoon Network HD+ Hindi",
-              "channel": "JioTV",
-              "language": "hindi",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/cartoon-network-hd--hindi/3436/we-bare-bears/2606013436013",
-              "hasArtwork": true
-            },
-            {
-              "title": "Discovery Kids Hindi",
-              "channel": "JioTV",
-              "language": "hindi",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/discovery-kids-hindi/554/roll-no-21/260601554067",
-              "hasArtwork": true
-            },
-            {
-              "title": "Pogo Hindi",
-              "channel": "JioTV",
-              "language": "hindi",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/pogo-hindi/559/ls-teen-kaal-ka-dhamaal/episode-1/260601559028",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Epic Kids",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Roro aur Hero, Bhoot Mast, Zabardast!",
-              "channel": "Epic Kids - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/roro-aur-hero--bhoot-mast--zabardast-/2606013385000",
-              "hasArtwork": true
-            },
-            {
-              "title": "Akul Nakul",
-              "channel": "Epic Kids - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/akul-nakul/2606013385001",
-              "hasArtwork": true
-            },
-            {
-              "title": "Krishna Balram",
-              "channel": "Epic Kids - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/krishna-balram/2606013385002",
-              "hasArtwork": true
-            },
-            {
-              "title": "Mighty Raju",
-              "channel": "Epic Kids - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/mighty-raju/2606013385003",
-              "hasArtwork": true
-            },
-            {
-              "title": "Akki Jaanbaaz",
-              "channel": "Epic Kids - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/akki-jaanbaaz/2606013385004",
-              "hasArtwork": true
-            },
-            {
-              "title": "Epic Adventures Of Akul & Nakul",
-              "channel": "Epic Kids - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/epic-adventures-of-akul---nakul/2606013385006",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Free Kids Channel",
-          "type": "channel",
-          "items": [
-            {
-              "title": "Rainbow Rangers",
-              "channel": "Power Kids TV - live program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/power-kids-tv/2774/rainbow-rangers/2606012774013",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Rainbow Rangers",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Soothing Melodies 012",
-              "channel": "HooplaKidz TV - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/hooplakidz-tv/1780/soothing-melodies-012/episode-12/2606011780025",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Soothing Melodies 012",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Akul Nakul",
-              "channel": "Epic Kids - live program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-kids/3385/akul-nakul/2606013385008",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Akul Nakul",
-          "type": "rail",
-          "items": [
-            {
-              "title": "D.Gray-Man",
-              "channel": "Animax - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/animax/2258/d-gray-man/episode-21/2606012258027",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "D.Gray-Man",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Luv Kushh",
-              "channel": "Green Gold TV - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/green-gold-tv/3467/luv-kushh/2606013467028",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Animagic Studio",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Magic Bhootu (Hindi)",
-              "channel": "Zee5",
-              "language": "hindi",
-              "deeplink": "https://www.jiotv.com/tv-shows/magic-bhootu--hindi-/e5dd33869a70517a81c1ada91c5d94f8",
-              "hasArtwork": true
-            },
-            {
-              "title": "Food Wars: Shokugeki No Soma",
-              "channel": "Zee5",
-              "deeplink": "https://www.jiotv.com/tv-shows/food-wars---shokugeki-no-soma/54cbfdac919c5e05a0c99118a1b73a76",
-              "hasArtwork": true
-            },
-            {
-              "title": "Little Krishna",
-              "channel": "Zee5",
-              "deeplink": "https://www.jiotv.com/tv-shows/little-krishna/c964da05fdfe5b5d8b45606cf07a0420",
-              "hasArtwork": true
-            },
-            {
-              "title": "Kailash Ke Rakshak",
-              "channel": "Zee5",
-              "deeplink": "https://www.jiotv.com/tv-shows/kailash-ke-rakshak/cf8398c10b1054d1944ff381141bfa51",
-              "hasArtwork": true
-            },
-            {
-              "title": "Bandbudh Aur Budbak",
-              "channel": "Zee5",
-              "deeplink": "https://www.jiotv.com/tv-shows/bandbudh-aur-budbak/500ec3ffbfc055e39e8f6e44b2c4507a",
-              "hasArtwork": true
-            },
-            {
-              "title": "Appu - The Yogic Elephant",
-              "channel": "Zee5",
-              "deeplink": "https://www.jiotv.com/tv-shows/appu---the-yogic-elephant/eb47aea09a2e5a9f9b2dddaae06e59a1",
-              "hasArtwork": true
-            },
-            {
-              "title": "My Bhoot Friends",
-              "channel": "Zee5",
-              "deeplink": "https://www.jiotv.com/tv-shows/my-bhoot-friends/17e996a938285655b1de66e5c15afccd",
-              "hasArtwork": true
-            },
-            {
-              "title": "Dragon Force",
-              "channel": "Zee5",
-              "deeplink": "https://www.jiotv.com/tv-shows/dragon-force/f5590abf15d25c0badd38d61c885451f",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Power Kids",
-          "type": "rail",
-          "items": [
-            {
-              "title": "The Jungle Book",
-              "channel": "Power Kids TV - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/power-kids-tv/2774/the-jungle-book/2606012774000",
-              "hasArtwork": true
-            },
-            {
-              "title": "Rainbow Rangers",
-              "channel": "Power Kids TV - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/power-kids-tv/2774/rainbow-rangers/2606012774001",
-              "hasArtwork": true
-            },
-            {
-              "title": "Thomas Edison's Secret Lab",
-              "channel": "Power Kids TV - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/power-kids-tv/2774/thomas-edison-s-secret-lab/2606012774002",
-              "hasArtwork": true
-            },
-            {
-              "title": "Superhero Kindergarten",
-              "channel": "Power Kids TV - past program",
-              "genre": "kids",
-              "deeplink": "https://www.jiotv.com/live-channel/power-kids-tv/2774/superhero-kindergarten/2606012774003",
-              "hasArtwork": true
-            }
-          ]
-        }
-      ]
+      "banners": [],
+      "rails": [],
+      "note": "No rails captured (tab may require login or had no content)."
     },
     {
       "id": "news",
@@ -3750,28 +3442,28 @@
       "path": "/news",
       "banners": [
         {
-          "title": "Brahmashtra on Times Now Navbharat"
+          "title": "Times Now NavBharat Live on Times Now Navbharat"
         },
         {
-          "title": "Sulagtey Sawaal on News 18 India"
+          "title": "Mudda Garam Hai on News 18 India"
         },
         {
           "title": "Zee Special on Zee News"
         },
         {
-          "title": "International on BBC News Hindi"
+          "title": "BBC Investigations on BBC News Hindi"
         },
         {
-          "title": "Know Your Company on CNBC Awaaz"
+          "title": "Kamai Ka Adda on CNBC Awaaz"
         },
         {
           "title": "Live Bulletin on News 9"
         },
         {
-          "title": "Brahmashtra on Times Now Navbharat"
+          "title": "Times Now NavBharat Live on Times Now Navbharat"
         },
         {
-          "title": "Sulagtey Sawaal on News 18 India"
+          "title": "Mudda Garam Hai on News 18 India"
         }
       ],
       "rails": [
@@ -3780,44 +3472,44 @@
           "type": "rail",
           "items": [
             {
-              "title": "Brahmashtra",
+              "title": "Times Now NavBharat Live",
               "channel": "Times Now Navbharat",
-              "deeplink": "https://www.jiotv.com/live-channel/times-now-navbharat/1906/brahmashtra/2606011906016",
+              "deeplink": "https://www.jiotv.com/live-channel/times-now-navbharat/1906/times-now-navbharat-live/2606011906018",
               "hasArtwork": true
             },
             {
-              "title": "Sulagtey Sawaal",
+              "title": "Mudda Garam Hai",
               "channel": "News 18 India",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/news-18-india/231/sulagtey-sawaal/260601231010",
+              "deeplink": "https://www.jiotv.com/live-channel/news-18-india/231/mudda-garam-hai/260601231011",
               "hasArtwork": true
             },
             {
               "title": "Zee Special",
               "channel": "Zee News",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/zee-news/504/zee-special/260601504027",
+              "deeplink": "https://www.jiotv.com/live-channel/zee-news/504/zee-special/260601504029",
               "hasArtwork": true
             },
             {
-              "title": "International",
+              "title": "BBC Investigations",
               "channel": "BBC News Hindi",
               "language": "hindi",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/bbc-news-hindi/1431/international/2606011431013",
+              "deeplink": "https://www.jiotv.com/live-channel/bbc-news-hindi/1431/bbc-investigations/2606011431014",
               "hasArtwork": true
             },
             {
-              "title": "Know Your Company",
+              "title": "Kamai Ka Adda",
               "channel": "CNBC Awaaz",
-              "deeplink": "https://www.jiotv.com/live-channel/cnbc-awaaz/190/know-your-company/260601190016",
+              "deeplink": "https://www.jiotv.com/live-channel/cnbc-awaaz/190/kamai-ka-adda/260601190018",
               "hasArtwork": true
             },
             {
               "title": "Live Bulletin",
               "channel": "News 9",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/news-9/656/live-bulletin/260601656008",
+              "deeplink": "https://www.jiotv.com/live-channel/news-9/656/live-bulletin/260601656009",
               "hasArtwork": true
             }
           ]
@@ -3830,63 +3522,63 @@
               "title": "Aaj Tak",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/aaj-tak/173/lunch-break/260601173036",
+              "deeplink": "https://www.jiotv.com/live-channel/aaj-tak/173/newsroom/260601173038",
               "hasArtwork": true
             },
             {
               "title": "TV9 Bharatvarsh",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/tv9-bharatvarsh/1251/bharatvarsh-ka-no-1-bulletin/2606011251016",
+              "deeplink": "https://www.jiotv.com/live-channel/tv9-bharatvarsh/1251/loud---clear/2606011251018",
               "hasArtwork": true
             },
             {
               "title": "India TV",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/india-tv/235/kahani-kursi-ki/260601235023",
+              "deeplink": "https://www.jiotv.com/live-channel/india-tv/235/kahani-kursi-ki/260601235024",
               "hasArtwork": true
             },
             {
               "title": "News 18 India",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/news-18-india/231/sulagtey-sawaal/260601231010",
+              "deeplink": "https://www.jiotv.com/live-channel/news-18-india/231/mudda-garam-hai/260601231011",
               "hasArtwork": true
             },
             {
               "title": "ABP News India",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/abp-news-india/177/1-khabar-1-minute/260601177028",
+              "deeplink": "https://www.jiotv.com/live-channel/abp-news-india/177/saas-bahu-aur-saazish/260601177030",
               "hasArtwork": true
             },
             {
               "title": "Republic Bharat",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/republic-bharat/1403/live---breaking/2606011403027",
+              "deeplink": "https://www.jiotv.com/live-channel/republic-bharat/1403/raftaar-100/2606011403029",
               "hasArtwork": true
             },
             {
               "title": "Zee News",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/zee-news/504/zee-special/260601504027",
+              "deeplink": "https://www.jiotv.com/live-channel/zee-news/504/zee-special/260601504029",
               "hasArtwork": true
             },
             {
               "title": "NDTV India",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/ndtv-india/258/india-report/260601258027",
+              "deeplink": "https://www.jiotv.com/live-channel/ndtv-india/258/dhuandhar-100/260601258029",
               "hasArtwork": true
             },
             {
               "title": "Times Now Navbharat",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/times-now-navbharat/1906/brahmashtra/2606011906016",
+              "deeplink": "https://www.jiotv.com/live-channel/times-now-navbharat/1906/times-now-navbharat-live/2606011906018",
               "hasArtwork": true
             },
             {
@@ -3894,7 +3586,7 @@
               "channel": "JioTV",
               "language": "hindi",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/bbc-news-hindi/1431/international/2606011431013",
+              "deeplink": "https://www.jiotv.com/live-channel/bbc-news-hindi/1431/bbc-investigations/2606011431014",
               "hasArtwork": true
             }
           ]
@@ -3920,7 +3612,7 @@
               "title": "ABP Ananda",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/abp-ananda/672/film-star/260601672031",
+              "deeplink": "https://www.jiotv.com/live-channel/abp-ananda/672/dutor-duniya/260601672034",
               "hasArtwork": true
             },
             {
@@ -3928,7 +3620,7 @@
               "channel": "JioTV",
               "language": "kannada",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/tv9-kannada/619/nima-doctor/260601619027",
+              "deeplink": "https://www.jiotv.com/live-channel/tv9-kannada/619/tv9-vishesha/260601619029",
               "hasArtwork": true
             },
             {
@@ -3936,56 +3628,56 @@
               "channel": "JioTV",
               "language": "marathi",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/tv9-marathi/617/marg-pragaticha---gurukilli-yashachi/260601617017",
+              "deeplink": "https://www.jiotv.com/live-channel/tv9-marathi/617/tv9-bulletin/260601617019",
               "hasArtwork": true
             },
             {
               "title": "Public TV",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/public-tv/778/nithya-sanjeevini/260601778014",
+              "deeplink": "https://www.jiotv.com/live-channel/public-tv/778/public-mirror---special-segment/260601778016",
               "hasArtwork": true
             },
             {
               "title": "R Bangla",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/r-bangla/2780/r-bangla-live-100--news/2606012780027",
+              "deeplink": "https://www.jiotv.com/live-channel/r-bangla/2780/fataak-news/2606012780029",
               "hasArtwork": true
             },
             {
               "title": "Thanthi TV",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/thanthi-tv/830/thanthi-seithigal/260601830023",
+              "deeplink": "https://www.jiotv.com/live-channel/thanthi-tv/830/ezharai/260601830025",
               "hasArtwork": true
             },
             {
               "title": "ABP Majha",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/abp-majha/612/majha-doctor/260601612024",
+              "deeplink": "https://www.jiotv.com/live-channel/abp-majha/612/majha-mid-day/260601612026",
               "hasArtwork": true
             },
             {
               "title": "Polimer News",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/polimer-news/636/polimer-seythigal/260601636027",
+              "deeplink": "https://www.jiotv.com/live-channel/polimer-news/636/polimer-seythigal/260601636029",
               "hasArtwork": true
             },
             {
               "title": "TV9 Bangla",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/tv9-bangla/1735/dupurer-super-prime-time/2606011735014",
+              "deeplink": "https://www.jiotv.com/live-channel/tv9-bangla/1735/full---final/2606011735016",
               "hasArtwork": true
             },
             {
               "title": "Suvarna News",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/suvarna-news/626/dear-doctor/260601626024",
+              "deeplink": "https://www.jiotv.com/live-channel/suvarna-news/626/uttara-samachara-live/260601626025",
               "hasArtwork": true
             }
           ]
@@ -3995,29 +3687,17 @@
           "type": "rail",
           "items": [
             {
-              "title": "Breaking Ground",
+              "title": "News",
               "channel": "NDTV 24x7 - live program",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/ndtv-24x7/255/breaking-ground/260601255027",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Breaking Ground",
-          "type": "rail",
-          "items": [
-            {
-              "title": "News",
-              "channel": "India Today - live program",
-              "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/india-today/493/news/260601493004",
+              "deeplink": "https://www.jiotv.com/live-channel/ndtv-24x7/255/news/260601255029",
               "hasArtwork": true
             },
             {
               "title": "Live And Breaking",
               "channel": "Republic TV - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/republic-tv/858/live-and-breaking/260601858025",
+              "genre": "news",
+              "deeplink": "https://www.jiotv.com/live-channel/republic-tv/858/live-and-breaking/260601858027",
               "hasArtwork": true
             }
           ]
@@ -4030,7 +3710,7 @@
               "title": "Live Bulletin",
               "channel": "News 9 - live program",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/news-9/656/live-bulletin/260601656008",
+              "deeplink": "https://www.jiotv.com/live-channel/news-9/656/live-bulletin/260601656009",
               "hasArtwork": true
             }
           ]
@@ -4040,47 +3720,45 @@
           "type": "rail",
           "items": [
             {
-              "title": "Mirror @ 1 PM",
+              "title": "2 PM Mirror @ 2 PM",
               "channel": "Mirror Now - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/mirror-now/491/mirror---1-pm/260601491020",
+              "deeplink": "https://www.jiotv.com/live-channel/mirror-now/491/2-pm-mirror---2-pm/260601491022",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Mirror @ 1 PM",
+          "title": "2 PM Mirror @ 2 PM",
           "type": "rail",
           "items": [
             {
-              "title": "The Pulse with Francine Lacqua",
+              "title": "Bloomberg Brief",
               "channel": "Bloomberg TV+ - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/bloomberg-tv-/3155/the-pulse-with-francine-lacqua/2606013155014",
+              "deeplink": "https://www.jiotv.com/live-channel/bloomberg-tv-/3155/bloomberg-brief/2606013155015",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "The Pulse with Francine Lacqua",
+          "title": "Bloomberg Brief",
           "type": "rail",
           "items": [
             {
-              "title": "CNN Newsroom",
+              "title": "CNN Headline Express",
               "channel": "CNN - live program",
-              "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/cnn/193/cnn-newsroom/episode-60/260601193019",
+              "deeplink": "https://www.jiotv.com/live-channel/cnn/193/cnn-headline-express/episode-31/260601193020",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "CNN Newsroom",
+          "title": "CNN Headline Express",
           "type": "rail",
           "items": [
             {
               "title": "Firstpost",
               "channel": "Firstpost - live program",
-              "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/firstpost/2326/firstpost/2606012326013",
+              "deeplink": "https://www.jiotv.com/live-channel/firstpost/2326/firstpost/2606012326014",
               "hasArtwork": true
             }
           ]
@@ -4090,48 +3768,47 @@
           "type": "rail",
           "items": [
             {
-              "title": "Times LIVE 30",
+              "title": "Breaking Ground",
               "channel": "Times NOW - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/times-now/383/times-live-30/260601383013",
+              "deeplink": "https://www.jiotv.com/live-channel/times-now/383/breaking-ground/260601383014",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Times LIVE 30",
+          "title": "Breaking Ground",
           "type": "rail",
           "items": [
             {
-              "title": "Speed News",
+              "title": "Top Stories",
               "channel": "Wion - live program",
-              "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/wion/412/speed-news/260601412027",
+              "deeplink": "https://www.jiotv.com/live-channel/wion/412/top-stories/260601412029",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Speed News",
+          "title": "Top Stories",
           "type": "rail",
           "items": [
             {
-              "title": "Simply South",
+              "title": "Breaking",
               "channel": "CNN NEWS18 - live program",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/cnn-news18/492/simply-south/260601492021",
+              "deeplink": "https://www.jiotv.com/live-channel/cnn-news18/492/breaking-on-news18/260601492022",
               "hasArtwork": true
             }
           ]
         },
         {
-          "title": "Simply South",
+          "title": "Breaking On News18",
           "type": "rail",
           "items": [
             {
               "title": "News",
               "channel": "Euro News - live program",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/euro-news/837/news/260601837057",
+              "deeplink": "https://www.jiotv.com/live-channel/euro-news/837/news/260601837060",
               "hasArtwork": true
             }
           ]
@@ -4144,56 +3821,56 @@
               "title": "CNBC Awaaz",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/cnbc-awaaz/190/know-your-company/260601190016",
+              "deeplink": "https://www.jiotv.com/live-channel/cnbc-awaaz/190/kamai-ka-adda/260601190018",
               "hasArtwork": true
             },
             {
               "title": "NDTV Profit",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/ndtv-profit/259/smallcap-buzzers/260601259027",
+              "deeplink": "https://www.jiotv.com/live-channel/ndtv-profit/259/india-market-close/260601259029",
               "hasArtwork": true
             },
             {
               "title": "Zee Business",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/zee-business/657/market-radar/260601657027",
+              "deeplink": "https://www.jiotv.com/live-channel/zee-business/657/final-trade/260601657029",
               "hasArtwork": true
             },
             {
               "title": "Yahoo Finance",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/yahoo-finance/3346/nvidia-earnings/2606013346017",
+              "deeplink": "https://www.jiotv.com/live-channel/yahoo-finance/3346/best-of-semafor-2026/2606013346018",
               "hasArtwork": true
             },
             {
               "title": "Bloomberg TV+",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/bloomberg-tv-/3155/the-pulse-with-francine-lacqua/2606013155014",
+              "deeplink": "https://www.jiotv.com/live-channel/bloomberg-tv-/3155/bloomberg-brief/2606013155015",
               "hasArtwork": true
             },
             {
               "title": "Bloomberg Originals",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/bloomberg-originals/3154/bloomberg-investigates/2606013154020",
+              "deeplink": "https://www.jiotv.com/live-channel/bloomberg-originals/3154/bloomberg-investigates/2606013154022",
               "hasArtwork": true
             },
             {
               "title": "CNBC TV18",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/cnbc-tv18/489/midcap-radar/260601489016",
+              "deeplink": "https://www.jiotv.com/live-channel/cnbc-tv18/489/nse-closing-bell/260601489018",
               "hasArtwork": true
             },
             {
               "title": "ET Now",
               "channel": "JioTV",
               "genre": "news",
-              "deeplink": "https://www.jiotv.com/live-channel/et-now/212/market-fatafat/260601212020",
+              "deeplink": "https://www.jiotv.com/live-channel/et-now/212/et-now-closing-trades/260601212021",
               "hasArtwork": true
             }
           ]
@@ -4204,372 +3881,9 @@
       "id": "shows",
       "name": "Shows",
       "path": "/shows",
-      "banners": [
-        {
-          "title": "Bhabhi Ke Pyaare Pritam Hamare on Epic Bharat"
-        },
-        {
-          "title": "Tu Raja Mu Rani on Tarang"
-        },
-        {
-          "title": "Yeh Rishta Kya Kehlata Hai on Star Plus HD"
-        },
-        {
-          "title": "Yashomati Maiyya Ke Nandlala on Sony Pal"
-        },
-        {
-          "title": "Bhabhi Ke Pyaare Pritam Hamare on Epic Bharat"
-        },
-        {
-          "title": "Tu Raja Mu Rani on Tarang"
-        },
-        {
-          "title": "Yeh Rishta Kya Kehlata Hai on Star Plus HD"
-        },
-        {
-          "title": "Yashomati Maiyya Ke Nandlala on Sony Pal"
-        }
-      ],
-      "rails": [
-        {
-          "title": "Featured",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Bhabhi Ke Pyaare Pritam Hamare",
-              "channel": "Epic Bharat",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/bhabhi-ke-pyaare-pritam-hamare/2606013383013",
-              "hasArtwork": true
-            },
-            {
-              "title": "Tu Raja Mu Rani",
-              "channel": "Tarang",
-              "deeplink": "https://www.jiotv.com/live-channel/tarang/703/tu-raja-mu-rani/episode-291/260601703003",
-              "hasArtwork": true
-            },
-            {
-              "title": "Yeh Rishta Kya Kehlata Hai",
-              "channel": "Star Plus HD",
-              "deeplink": "https://www.jiotv.com/live-channel/star-plus-hd/1132/yeh-rishta-kya-kehlata-hai/episode-169/2606011132014",
-              "hasArtwork": true
-            },
-            {
-              "title": "Yashomati Maiyya Ke Nandlala",
-              "channel": "Sony Pal",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/yashomati-maiyya-ke-nandlala/episode-83/260526474052",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Free to Watch",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Taarak Mehta Ka Ooltah Chashmah",
-              "channel": "Sony Pal - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/taarak-mehta-ka-ooltah-chashmah/episode-4278/260601474036",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Taarak Mehta Ka Ooltah Chashmah",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Sasural Simar Ka",
-              "channel": "Colors Rishtey - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/colors-rishtey/279/sasural-simar-ka/episode-1247/260531279027",
-              "hasArtwork": true
-            },
-            {
-              "title": "Agni Vayu",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/agni-vayu/2606013383010",
-              "hasArtwork": true
-            },
-            {
-              "title": "Ramayana",
-              "channel": "Shemaroo TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/ramayana/episode-65/2606011961010",
-              "hasArtwork": true
-            },
-            {
-              "title": "Parineetii",
-              "channel": "Colors Rishtey - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/colors-rishtey/279/parineetii/episode-182/260601279000",
-              "hasArtwork": true
-            },
-            {
-              "title": "Stories by Rabindranath Tagore",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/stories-by-rabindranath-tagore/2606013383008",
-              "hasArtwork": true
-            },
-            {
-              "title": "Baal Veer",
-              "channel": "Sony Pal - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/baal-veer/episode-952/260601474023",
-              "hasArtwork": true
-            },
-            {
-              "title": "Naagin",
-              "channel": "Colors Rishtey - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/colors-rishtey/279/naagin/episode-25/260601279015",
-              "hasArtwork": true
-            },
-            {
-              "title": "Paapnaashini Ganga",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/paapnaashini-ganga/2606013383014",
-              "hasArtwork": true
-            },
-            {
-              "title": "Yashomati Maiyya Ke Nandlala",
-              "channel": "Sony Pal - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/yashomati-maiyya-ke-nandlala/episode-83/260526474052",
-              "hasArtwork": true
-            },
-            {
-              "title": "Jai Mahalakshmi",
-              "channel": "Shemaroo TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/jai-mahalakshmi/episode-14/2605311961018",
-              "hasArtwork": true
-            },
-            {
-              "title": "Sankatmochan Mahabali Hanuman",
-              "channel": "Sony Pal - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/sankatmochan-mahabali-hanuman/episode-24/260601474026",
-              "hasArtwork": true
-            },
-            {
-              "title": "Laal Banarasi",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/laal-banarasi/2606013383009",
-              "hasArtwork": true
-            },
-            {
-              "title": "Bhabhi Ke Pyaare Pritam Hamare",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/bhabhi-ke-pyaare-pritam-hamare/2606013383013",
-              "hasArtwork": true
-            },
-            {
-              "title": "Yam Kisi Se Kam Nahin",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/yam-kisi-se-kam-nahin/2606013383015",
-              "hasArtwork": true
-            },
-            {
-              "title": "Mata Ki Mahima",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/mata-ki-mahima/2606013383012",
-              "hasArtwork": true
-            },
-            {
-              "title": "Karmaadhikaari Shanidev",
-              "channel": "Shemaroo TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/karmaadhikaari-shanidev/episode-258/2605311961022",
-              "hasArtwork": true
-            },
-            {
-              "title": "Jai Ganga Maiya",
-              "channel": "Shemaroo TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/jai-ganga-maiya/episode-50/2605251961018",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Premium Sony Shows 👑",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Tum Ho Naa - Ghar Ki Superstar",
-              "channel": "SET HD - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/tum-ho-naa---ghar-ki-superstar/episode-1/260601291012",
-              "hasArtwork": true
-            },
-            {
-              "title": "Taarak Mehta Ka Ooltah Chashmah",
-              "channel": "Sony SAB HD - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-sab-hd/471/taarak-mehta-ka-ooltah-chashmah/episode-2816/260601471019",
-              "hasArtwork": true
-            },
-            {
-              "title": "Maharashtrachi Hasya Jatra",
-              "channel": "Sony Marathi SD - past program",
-              "language": "marathi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-marathi-sd/1146/maharashtrachi-hasya-jatra/episode-329/2606011146011",
-              "hasArtwork": true
-            },
-            {
-              "title": "Gatha Navnathanchi",
-              "channel": "Sony Marathi SD - past program",
-              "language": "marathi",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-marathi-sd/1146/gatha-navnathanchi/episode-40/2605291146009",
-              "hasArtwork": true
-            },
-            {
-              "title": "Vashikaranam - Kis Par Rakhe Vishwas",
-              "channel": "SET HD - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/vashikaranam---kis-par-rakhe-vishwas/episode-54/260529291005",
-              "hasArtwork": true
-            },
-            {
-              "title": "Maddam Sir",
-              "channel": "Sony SAB HD - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-sab-hd/471/maddam-sir/episode-316/260601471022",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Maddam Sir",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Amaar Sai - Shradhha Aar Dhairya",
-              "channel": "SET HD - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/amaar-sai---shradhha-aar-dhairya/episode-1124/260529291024",
-              "hasArtwork": true
-            },
-            {
-              "title": "Indian Idol",
-              "channel": "SET HD - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/set-hd/291/indian-idol/episode-65/260601291013",
-              "hasArtwork": true
-            },
-            {
-              "title": "Pushpa Impossible",
-              "channel": "Sony SAB HD - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-sab-hd/471/pushpa-impossible/episode-1246/260601471017",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Amazon MX Binge",
-          "type": "rail",
-          "items": [
-            {
-              "title": "undefined",
-              "channel": "undefined",
-              "deeplink": "https://www.jiotv.com/tv-shows/psycho-saiyaan/5b8d816b52f650a987b13401392fc451",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Family Favourites",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Laal Banarasi",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/laal-banarasi/2606013383009",
-              "hasArtwork": true
-            },
-            {
-              "title": "Om Namah Shivay",
-              "channel": "Shemaroo TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/om-namah-shivay/episode-117/2605311961021",
-              "hasArtwork": true
-            },
-            {
-              "title": "Baal Veer",
-              "channel": "Sony Pal - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sony-pal/474/baal-veer/episode-952/260601474023",
-              "hasArtwork": true
-            },
-            {
-              "title": "Karmaadhikaari Shanidev",
-              "channel": "Shemaroo TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/karmaadhikaari-shanidev/episode-258/2605311961022",
-              "hasArtwork": true
-            },
-            {
-              "title": "Paapnaashini Ganga",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/paapnaashini-ganga/2606013383014",
-              "hasArtwork": true
-            },
-            {
-              "title": "Amaar Sai - Shradhha Aar Dhairya",
-              "channel": "Shemaroo TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/shemaroo-tv/1961/amaar-sai---shradhha-aar-dhairya/episode-51/2605311961016",
-              "hasArtwork": true
-            },
-            {
-              "title": "Mata Ki Mahima",
-              "channel": "Epic Bharat - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/epic-bharat/3383/mata-ki-mahima/2606013383012",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Odisha TV",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Odhani",
-              "channel": "Tarang - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/tarang/703/odhani/episode-69/260601703002",
-              "hasArtwork": true
-            },
-            {
-              "title": "Kedara Gouri",
-              "channel": "Sidharth TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sidharth-tv/1956/kedara-gouri/2606011956023",
-              "hasArtwork": true
-            },
-            {
-              "title": "Tori Paain to Paain",
-              "channel": "Tarang - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/tarang/703/tori-paain-to-paain/260531703028",
-              "hasArtwork": true
-            },
-            {
-              "title": "Sunayana",
-              "channel": "Sidharth TV - live program",
-              "deeplink": "https://www.jiotv.com/live-channel/sidharth-tv/1956/sunayana/2606011956025",
-              "hasArtwork": true
-            }
-          ]
-        },
-        {
-          "title": "Sunayana",
-          "type": "rail",
-          "items": [
-            {
-              "title": "Tu Raja Mu Rani",
-              "channel": "Tarang - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/tarang/703/tu-raja-mu-rani/episode-291/260601703003",
-              "hasArtwork": true
-            },
-            {
-              "title": "Maya O Mamata",
-              "channel": "Sidharth TV - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/sidharth-tv/1956/maya-o-mamata/2606011956024",
-              "hasArtwork": true
-            },
-            {
-              "title": "Mo Sindurara Adhikara",
-              "channel": "Tarang - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/tarang/703/mo-sindurara-adhikara/episode-1534/260531703001",
-              "hasArtwork": true
-            },
-            {
-              "title": "Bada Bohu Samparka Ra Nua Kahani",
-              "channel": "Tarang - past program",
-              "deeplink": "https://www.jiotv.com/live-channel/tarang/703/bada-bohu-samparka-ra-nua-kahani/episode-234/260531703017",
-              "hasArtwork": true
-            }
-          ]
-        }
-      ]
+      "banners": [],
+      "rails": [],
+      "note": "No rails captured (tab may require login or had no content)."
     }
   ]
 }
