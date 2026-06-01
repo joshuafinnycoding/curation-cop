@@ -1,35 +1,35 @@
 [
   {
     "scoredAt": "2026-05-28T09:00:00Z",
-    "overall": 68,
-    "grade": "C",
+    "overall": 82,
+    "grade": "B",
     "dims": {
-      "constitution": 50,
-      "strategy": 80,
-      "freshness": 78,
-      "engagement": 82
+      "constitution": 95,
+      "strategy": 70,
+      "freshness": 90,
+      "engagement": 78
     }
   },
   {
     "scoredAt": "2026-05-30T09:00:00Z",
-    "overall": 71,
-    "grade": "B",
+    "overall": 87,
+    "grade": "A",
     "dims": {
-      "constitution": 52,
-      "strategy": 82,
-      "freshness": 80,
-      "engagement": 83
+      "constitution": 100,
+      "strategy": 72,
+      "freshness": 95,
+      "engagement": 80
     }
   },
   {
-    "scoredAt": "2026-06-01T09:00:00Z",
-    "overall": 73,
-    "grade": "B",
+    "scoredAt": "2026-06-01T08:19:28.876Z",
+    "overall": 91,
+    "grade": "A",
     "dims": {
-      "constitution": 53,
-      "strategy": 84,
-      "freshness": 82,
-      "engagement": 84
+      "constitution": 100,
+      "strategy": 75,
+      "freshness": 100,
+      "engagement": 80
     }
   }
 ]

@@ -1,124 +1,133 @@
 {
-  "capturedAt": "2026-06-01T09:00:00Z",
-  "scoredAt": "2026-06-01T06:23:37.258Z",
+  "capturedAt": "2026-06-01T08:17:42.072Z",
+  "scoredAt": "2026-06-01T08:19:18.998Z",
   "source": "https://www.jiotv.com",
-  "overall": 73,
-  "grade": "B",
+  "overall": 91,
+  "grade": "A",
   "dimensions": {
     "constitution": {
       "label": "Constitutional Alignment",
       "weight": 0.35,
-      "score": 53,
+      "score": 100,
       "evidence": {
-        "langCoverage": 0.21428571428571427,
+        "langCoverage": 0.5714285714285714,
         "genreCoverage": 0.5,
-        "hindiEng": 0.875
+        "hindiEng": 0.6607142857142857
       }
     },
     "strategy": {
       "label": "Strategy Alignment",
       "weight": 0.25,
-      "score": 84,
+      "score": 75,
       "evidence": {
         "pillarsHit": [
           "content",
-          "discovery",
           "distribution"
         ],
         "segHit": [
-          "Cord-Cutter"
+          "Cord-Cutter",
+          "TV Loyalist",
+          "Family Household",
+          "Feature Phone User",
+          "Premium Seeker"
         ]
       }
     },
     "freshness": {
       "label": "Freshness & Integrity",
       "weight": 0.25,
-      "score": 82,
+      "score": 100,
       "evidence": {
-        "stale": 1,
-        "deadLinks": 1,
-        "noArt": 1,
-        "expired": 1
+        "stale": 0,
+        "deadLinks": 0,
+        "noArt": 0,
+        "expired": 0
       }
     },
     "engagement": {
       "label": "Engagement Heuristics",
       "weight": 0.15,
-      "score": 84,
+      "score": 80,
       "evidence": {
-        "dupItems": 1,
-        "shortRails": 4,
+        "dupItems": 101,
+        "shortRails": 61,
         "longRails": 0
       }
     }
   },
   "recommendations": [
     {
-      "severity": "high",
-      "dimension": "constitution",
-      "issue": "Only 3/14 first-class languages appear in curation.",
-      "action": "Add rails or items in under-represented languages (e.g. telugu, kannada, malayalam, marathi, bengali, gujarati). Constitution Art. II.7: every language is a full citizen, not a translated Hindi app."
-    },
-    {
-      "severity": "high",
-      "dimension": "constitution",
-      "issue": "Kids tab surfaces 1 item(s) above U/A 7+ (e.g. \"Adult Thriller\").",
-      "action": "Remove non-kids content from kids surfaces immediately. Art. IV/V: kids content must be siloed; safety is the default state."
-    },
-    {
-      "severity": "high",
-      "dimension": "freshness",
-      "issue": "1 item(s) have expired streaming rights but are still surfaced.",
-      "action": "Pull expired-rights items now — surfacing them risks partner-contract violations (Constitution Art. II.9; legal.md §7)."
+      "severity": "medium",
+      "dimension": "strategy",
+      "issue": "Strategic pillar(s) under-served: discovery.",
+      "action": "Add personalization rails (For You, Because You Watched, Continue Watching). Discovery is the pillar that fights the leaky bucket."
     },
     {
       "severity": "medium",
       "dimension": "strategy",
-      "issue": "Curation doesn't clearly serve 4 of 5 target segments (TV Loyalist, Family Household, Feature Phone User, Premium Seeker).",
-      "action": "Ensure at least one rail speaks to each priority segment; the TV Loyalist and Feature Phone segments are the strategic moat."
-    },
-    {
-      "severity": "medium",
-      "dimension": "freshness",
-      "issue": "1 item(s) have malformed or missing deeplinks.",
-      "action": "Fix deeplinks (expected jioplay:// or https://). A tap that goes nowhere breaks 'the stream is the product'."
-    },
-    {
-      "severity": "medium",
-      "dimension": "freshness",
-      "issue": "1 item(s) on freshness-sensitive rails are older than 7 days.",
-      "action": "Refresh Trending/New Releases/Top 10 rails; stale items on these rails erode trust in the surface."
+      "issue": "No 'Continue Watching' rail detected on entry surfaces.",
+      "action": "Add Continue Watching high on the For You tab — it's the cheapest re-engagement hook for week-on-week retention."
     },
     {
       "severity": "medium",
       "dimension": "engagement",
-      "issue": "4 rail(s) have fewer than 4 items.",
+      "issue": "61 rail(s) have fewer than 4 items.",
       "action": "Merge or hide thin rails — a near-empty rail reads as broken and pushes good content below the fold."
-    },
-    {
-      "severity": "low",
-      "dimension": "freshness",
-      "issue": "1 item(s) are missing artwork.",
-      "action": "Backfill thumbnails; tiles without artwork tank CTR and look broken."
     }
   ],
   "tabStats": [
     {
       "name": "For You",
-      "rails": 3,
-      "items": 6,
-      "banners": 2
+      "rails": 5,
+      "items": 81,
+      "banners": 8
+    },
+    {
+      "name": "Premium",
+      "rails": 6,
+      "items": 206,
+      "banners": 8
+    },
+    {
+      "name": "Movies",
+      "rails": 6,
+      "items": 15,
+      "banners": 8
+    },
+    {
+      "name": "Sports",
+      "rails": 6,
+      "items": 124,
+      "banners": 8
+    },
+    {
+      "name": "Specials",
+      "rails": 35,
+      "items": 42,
+      "banners": 8
     },
     {
       "name": "Kids",
-      "rails": 1,
-      "items": 2,
-      "banners": 0
+      "rails": 10,
+      "items": 33,
+      "banners": 8
+    },
+    {
+      "name": "News",
+      "rails": 16,
+      "items": 47,
+      "banners": 8
+    },
+    {
+      "name": "Shows",
+      "rails": 9,
+      "items": 47,
+      "banners": 8
     }
   ],
   "totals": {
-    "tabs": 2,
-    "rails": 4,
-    "items": 8
+    "tabs": 8,
+    "rails": 93,
+    "items": 595
   }
 }

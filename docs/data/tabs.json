@@ -1,0 +1,13 @@
+{
+  "base": "https://www.jiotv.com",
+  "tabs": [
+    { "id": "for_you",  "name": "For You",  "path": "/" },
+    { "id": "premium",  "name": "Premium",  "path": "/premium" },
+    { "id": "movies",   "name": "Movies",   "path": "/movies" },
+    { "id": "sports",   "name": "Sports",   "path": "/sports" },
+    { "id": "specials", "name": "Specials", "path": "/specials" },
+    { "id": "kids",     "name": "Kids",     "path": "/kids" },
+    { "id": "news",     "name": "News",     "path": "/news" },
+    { "id": "shows",    "name": "Shows",    "path": "/shows" }
+  ]
+}

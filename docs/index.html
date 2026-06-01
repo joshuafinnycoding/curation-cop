@@ -123,6 +123,27 @@
   .bar small{position:absolute;bottom:-18px;left:0;right:0;text-align:center;font-size:9px;opacity:.5}
 
   .note{font-size:12px;opacity:.7;background:rgba(217,138,0,.12);border:1px solid rgba(217,138,0,.3);border-radius:12px;padding:11px 13px;margin-top:14px;line-height:1.45}
+  .trow{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:14px}
+  .trow:last-child{border-bottom:0}
+  .trow .tn{font-weight:700}
+  .trow .tmeta{font-size:12.5px;opacity:.7}
+  .trow.dim-row{opacity:.45}
+  .trow.dim-row .tmeta i{font-style:normal}
+  /* tab editor */
+  .te{display:flex;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+  .te .nm{font-weight:700;font-size:14px;flex:none;min-width:96px}
+  .te .pa{font-size:12.5px;opacity:.7;font-family:ui-monospace,monospace;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .te .del{appearance:none;border:0;background:rgba(193,21,57,.22);color:#FFB3C1;font-weight:800;border-radius:8px;width:30px;height:30px;cursor:pointer;flex:none}
+  .te .del:active{transform:scale(.92)}
+  .addrow{display:flex;gap:8px;margin-top:14px}
+  .addrow input{flex:1;min-width:0;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:11px 12px;color:#fff;font-size:14px}
+  .addrow input::placeholder{color:rgba(255,255,255,.4)}
+  .addrow input:focus{outline:none;border-color:var(--crimson-accent)}
+  .mini.add{flex:none;background:rgba(255,255,255,.14);border:0;color:#fff;font-weight:700;border-radius:10px;padding:0 14px;cursor:pointer;font-size:13px}
+  .tabactions{display:flex;gap:8px;margin-top:14px}
+  .btn.save{background:linear-gradient(135deg,var(--ok),#159a3e);box-shadow:0 6px 18px rgba(37,171,33,.3)}
+  .tabsmsg{font-size:12.5px;margin-top:11px;min-height:18px;opacity:.85}
+  .tabsmsg.ok{color:#7BE0A0}.tabsmsg.warn{color:#FFD98A}
   .empty{text-align:center;opacity:.6;padding:30px 10px;font-size:14px}
   footer{text-align:center;font-size:11px;opacity:.4;margin-top:26px;line-height:1.6}
   a{color:var(--crimson-accent)}
@@ -145,12 +166,31 @@
   </div>
   <div class="runbar">
     <button class="btn" id="runBtn"><span class="spin"></span><span class="lbl">▶ Run Agent</span></button>
+    <button class="btn ghost" id="tabsBtn" title="Manage tab URLs">⚙</button>
     <button class="btn ghost" id="aboutBtn" title="How scoring works">ℹ︎</button>
   </div>
 </header>
 
 <div class="wrap">
   <div id="content"><div class="empty">Tap <b>Run Agent</b> to load the latest curation review.</div></div>
+
+  <div class="card" id="tabsCard" style="display:none">
+    <h2>Manage Tab URLs</h2>
+    <p style="font-size:12.5px;opacity:.75;margin:0 0 12px;line-height:1.5">
+      These are the JioTV tabs the agent scrapes. Add a tab when JioTV ships a new one — just give it a name and its path (e.g. <code style="background:rgba(0,0,0,.3);padding:1px 6px;border-radius:5px">/music</code>). Save, then commit the downloaded <code style="background:rgba(0,0,0,.3);padding:1px 6px;border-radius:5px">tabs.json</code> so the next agent run picks it up.
+    </p>
+    <div id="tabList"></div>
+    <div class="addrow">
+      <input id="newName" placeholder="Tab name (e.g. Music)" />
+      <input id="newPath" placeholder="/music" />
+      <button class="mini add" id="addTab">＋ Add</button>
+    </div>
+    <div class="tabactions">
+      <button class="btn save" id="saveTabs" style="flex:1">⬇ Save tabs.json</button>
+      <button class="btn ghost" id="copyTabs" title="Copy JSON">⧉</button>
+    </div>
+    <div id="tabsMsg" class="tabsmsg"></div>
+  </div>
 
   <div class="card" id="aboutCard" style="display:none">
     <h2>How the agent scores</h2>
@@ -199,6 +239,15 @@ function render(report, history){
       <div class="action">${r.action}</div>
     </div>`).join('') : '<div class="empty">No issues found. Curation is within all thresholds.</div>';
 
+  const tabRowsHTML = (report.tabStats||[]).map(t=>{
+    const empty = t.items===0;
+    return `<div class="trow${empty?' dim-row':''}">
+      <span class="tn">${t.name}</span>
+      <span class="tmeta">${empty?'<i>no items captured</i>':`${t.rails} rails · ${t.items} items`}</span>
+    </div>`;
+  }).join('');
+  const tabsCard = `<div class="card"><h2>Per-Tab Coverage</h2>${tabRowsHTML}</div>`;
+
   const t = report.totals||{};
   const statsHTML = `
     <div class="stats">
@@ -242,6 +291,7 @@ function render(report, history){
 
     <div class="card"><h2>Dimension Breakdown</h2>${dimsHTML}</div>
     <div class="card"><h2>Inventory</h2>${statsHTML}</div>
+    ${tabsCard}
     ${trendHTML}
     <div class="card"><h2>Recommended Actions · ${report.recommendations.length}</h2>${recsHTML}</div>
   `;
@@ -283,8 +333,76 @@ function showAbout(){
   c.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
+// ---- Tab manager ----
+let TAB_CFG = { base:'https://www.jiotv.com', tabs:[] };
+
+async function loadTabCfg(){
+  try{ TAB_CFG = await loadJSON('data/tabs.json'); }
+  catch{ TAB_CFG = { base:'https://www.jiotv.com', tabs:[
+    {id:'for_you',name:'For You',path:'/'},{id:'premium',name:'Premium',path:'/premium'},
+    {id:'movies',name:'Movies',path:'/movies'},{id:'sports',name:'Sports',path:'/sports'},
+    {id:'specials',name:'Specials',path:'/specials'},{id:'kids',name:'Kids',path:'/kids'},
+    {id:'news',name:'News',path:'/news'},{id:'shows',name:'Shows',path:'/shows'}
+  ]}; }
+}
+
+function renderTabEditor(){
+  const list = $('#tabList');
+  list.innerHTML = TAB_CFG.tabs.map((t,i)=>`
+    <div class="te">
+      <span class="nm">${t.name}</span>
+      <span class="pa">${TAB_CFG.base}${t.path}</span>
+      <button class="del" data-i="${i}" title="Remove">×</button>
+    </div>`).join('') || '<div style="opacity:.5;font-size:13px;padding:8px 0">No tabs configured.</div>';
+  list.querySelectorAll('.del').forEach(b=>b.addEventListener('click',()=>{
+    TAB_CFG.tabs.splice(+b.dataset.i,1); renderTabEditor(); setMsg('Removed. Save to apply.','warn');
+  }));
+}
+
+function setMsg(t,cls){ const m=$('#tabsMsg'); m.textContent=t||''; m.className='tabsmsg'+(cls?' '+cls:''); }
+
+function addTab(){
+  const name=$('#newName').value.trim();
+  let p=$('#newPath').value.trim();
+  if(!name||!p){ setMsg('Enter both a name and a path.','warn'); return; }
+  if(!p.startsWith('/')) p='/'+p;
+  const id=name.toLowerCase().replace(/[^a-z0-9]+/g,'_');
+  if(TAB_CFG.tabs.some(t=>t.path===p)){ setMsg('That path is already in the list.','warn'); return; }
+  TAB_CFG.tabs.push({id,name,path:p});
+  $('#newName').value=''; $('#newPath').value='';
+  renderTabEditor(); setMsg(`Added "${name}". Save tabs.json to apply on the next run.`,'ok');
+}
+
+function tabsJSON(){ return JSON.stringify(TAB_CFG,null,2); }
+
+function saveTabs(){
+  const blob=new Blob([tabsJSON()],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='tabs.json'; a.click(); URL.revokeObjectURL(a.href);
+  setMsg('Downloaded. Commit it to docs/data/tabs.json, then Run Agent.','ok');
+}
+async function copyTabs(){
+  try{ await navigator.clipboard.writeText(tabsJSON()); setMsg('JSON copied to clipboard.','ok'); }
+  catch{ setMsg('Copy failed — use Save instead.','warn'); }
+}
+
+async function toggleTabs(){
+  const c=$('#tabsCard');
+  if(c.style.display==='none'){
+    await loadTabCfg(); renderTabEditor(); setMsg('');
+    c.style.display='block'; $('#aboutCard').style.display='none';
+    c.scrollIntoView({behavior:'smooth',block:'nearest'});
+  } else c.style.display='none';
+}
+
+
 $('#runBtn').addEventListener('click', run);
 $('#aboutBtn').addEventListener('click', showAbout);
+$('#tabsBtn').addEventListener('click', toggleTabs);
+$('#addTab').addEventListener('click', addTab);
+$('#saveTabs').addEventListener('click', saveTabs);
+$('#copyTabs').addEventListener('click', copyTabs);
+$('#newPath').addEventListener('keydown', e=>{ if(e.key==='Enter') addTab(); });
 // auto-load on first visit
 run();
 </script>
